@@ -1,13 +1,13 @@
 # Setup
-title:        First Issues
+title:        Good First Issues
 tagline:      ""
-baseurl:      "/awesome-rseng"
-github:       "https://github.com/rseng/awesome-rseng"
+baseurl:      "/good-first-issues"
+github:       "https://github.com/hpc.social/good-first-issues"
 
 # About/contact
 author:
   name:       "@vsoch"
-  url:        https://rseng.github.io/awesome-rseng
+  url:        https://hpc.social/good-first-issues
 
 # Collections
 collections:

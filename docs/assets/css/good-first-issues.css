@@ -1,4 +1,8 @@
-body {font-family:"Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;font-size:18px;font-weight:300;line-height:1.6}
+body {
+  font-family:"Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:18px;font-weight:300;line-height:1.6;
+  background-color: #333 !important;
+}
 
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
@@ -103,6 +107,7 @@ a:hover { text-decoration: underline; }
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     z-index: 20;
+    border-bottom: 1px solid #333;
 }
 
 .project-name { margin-top: 0px; margin-bottom: 0.1rem; color:#fff; font-size: 22px !important; font-weight: 600 !important;}
@@ -139,7 +144,7 @@ a:hover { text-decoration: underline; }
 .main-content hr { height: 2px; padding: 0; margin: 1rem 0; background-color: #eff0f1; border: 0; }
 
 .site-footer { padding-top: 2rem; margin-top: 2rem; border-top: solid 1px #eff0f1; }
-@media screen and (min-width: 64em) { .site-footer { font-size: 1rem; } }
+@media screen and (min-width: 64em) { .site-footer { font-size: 1.5rem; } }
 @media screen and (min-width: 42em) and (max-width: 64em) { .site-footer { font-size: 1rem; } }
 @media screen and (max-width: 42em) { .site-footer { font-size: 0.9rem; } }
 
@@ -1700,6 +1705,7 @@ span.soft {
     text-align: left;
 }
 .search input {
+    color: white;
     font-size: 20px;
     width: 300px;
 }
@@ -1831,7 +1837,6 @@ ul, .list {
 }
 
 li, .no-result {
-  margin: 5px 10px;
   float: left;
 }
 
@@ -1840,6 +1845,11 @@ li, .no-result {
 }
 .filter li:not(.active) a {
   transform: scale(0.9);
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #ffffff1a;
 }
 
 /* -- Input styles ---------------------------------- */
@@ -1859,22 +1869,22 @@ li, .no-result {
   font-size: 16px;
   font-weight: 300;
   padding: 0;
-  margin-left: 10px;
   background-color: transparent;
   box-shadow: none;
   border-bottom: 1px solid #757575;
+  color: white;
 }
 .form-control:focus {
   border-color: #757575;
   outline: none;
   box-shadow: none;
+  color: white;
 }
 
 label {
   position: absolute;
   top: -18px;
-  margin-left: 10px;
   color: #999;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 300;
 }

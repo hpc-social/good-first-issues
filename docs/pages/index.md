@@ -36,6 +36,6 @@ excluded_in_search: true
     </div>
     </li>{% endif %}{% endfor %}
     </ul>
-       <div class="no-result"><h3>Sorry, no match!</h3></div>
+       <div class="no-result"><h3></h3></div>
     </div>
   </div>
