@@ -1,0 +1,4 @@
+https://github.com/hpc-social/jobs
+https://github.com/hpc-social/events
+https://github.com/hpc-social/map
+https://github.com/hpc-social/surveys

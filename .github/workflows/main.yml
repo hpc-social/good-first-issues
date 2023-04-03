@@ -1,0 +1,24 @@
+name: good-first-issues
+
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: 0 2 * * *
+  - cron: 5 15 * * *
+  - cron: 5 10 * * *
+  - cron: 5 20 * * *
+  push:
+    - main
+
+jobs:
+  formatting:
+    runs-on: ubuntu-latest
+    steps:
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Generate First Issues
+      uses: rseng/good-first-issues@v1.0.3
+      with:
+        repos-file: '.github/repos.txt'
+        token: ${{ secrets.GITHUB_TOKEN }}
