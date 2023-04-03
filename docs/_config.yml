@@ -2,12 +2,12 @@
 title:        Good First Issues
 tagline:      ""
 baseurl:      "/good-first-issues"
-github:       "https://github.com/hpc.social/good-first-issues"
+github:       "https://github.com/hpc-social/good-first-issues"
 
 # About/contact
 author:
   name:       "@vsoch"
-  url:        https://hpc.social/good-first-issues
+  url:        https://hpc-social/good-first-issues
 
 # Collections
 collections:
