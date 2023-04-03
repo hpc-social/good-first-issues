@@ -12,7 +12,7 @@ on:
       - main
 
 jobs:
-  formatting:
+  good-first-issues:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -21,3 +21,27 @@ jobs:
       with:
         repos-file: '.github/repos.txt'
         token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Update Repository
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        UPDATE_BRANCH: "main"
+      run: |
+        printf "GitHub Actor: ${GITHUB_ACTOR}\n"
+        git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+        git branch
+        printf "Branch to push to is ${UPDATE_BRANCH}\n"
+        git checkout ${UPDATE_BRANCH} || git checkout -b ${UPDATE_BRANCH}
+        git branch
+        git config --global user.name "github-actions"
+        git config --global user.email "github-actions@users.noreply.github.com"
+        git pull origin ${UPDATE_BRANCH}
+        git add docs/*
+        git add docs/_issues/*
+        if git diff-index --quiet HEAD --; then
+           printf "No changes\n"
+        else
+           printf "Changes\n"
+           git commit -m "Automated deployment to update first issues $(date '+%Y-%m-%d')"
+           git push origin ${UPDATE_BRANCH}
+        fi
