@@ -8,4 +8,11 @@ That's it!
 ![img/good-first-issues.png](img/good-first-issues.png)
 
 This respository uses the [rseng/good-first-issues](https://github.com/rseng/good-first-issues)
-action to generate and update issues. Thanks for stopping by!
+action to generate and update issues. We have automation in [.github/workflows/main.yaml](.github/workflows/main.yaml)
+to automate adding repos with good first issues:
+
+```bash
+$ python .github/scripts/add-repos.py
+```
+
+Thanks for stopping by!
