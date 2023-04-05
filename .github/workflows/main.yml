@@ -1,6 +1,7 @@
 name: good-first-issues
 
 on:
+  pull_request: []
   workflow_dispatch:
   schedule:
   - cron: 0 2 * * *
@@ -16,6 +17,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
+    - name: Update Repos
+      run: python .github/scripts/add-repos.py
     - name: Generate First Issues
       uses: rseng/good-first-issues@v1.0.3
       with:
@@ -23,6 +26,7 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Update Repository
+      if: (github.event_name != 'pull_request')
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         UPDATE_BRANCH: "main"
