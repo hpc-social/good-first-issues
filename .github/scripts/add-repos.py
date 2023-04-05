@@ -55,9 +55,11 @@ listing = response.json()
 # Find repos with good first issue label
 for repo in listing:
 
-    # Only GitHub supported
-    if "gitlab" in repo['url']:
+    # Only GitHub supported, and skip those we've added
+    # We can do a cleanup later if the action has too many
+    if "gitlab" in repo['url'] or repo['url'] in repos:
         continue
+
     uid = "/".join(repo['url'].split("/")[-2:])
     url = api_base.format(repo=uid)
 
