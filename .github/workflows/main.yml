@@ -4,9 +4,6 @@ on:
   pull_request: []
   workflow_dispatch:
   schedule:
-  - cron: 0 2 * * *
-  - cron: 5 15 * * *
-  - cron: 5 10 * * *
   - cron: 5 20 * * *
   push:
     branches:
@@ -44,10 +41,12 @@ jobs:
         git pull origin ${UPDATE_BRANCH}
         git add docs/*
         git add docs/_issues/*
+        git add .github/repos.txt
+        git add .github/empty.txt
         if git diff-index --quiet HEAD --; then
            printf "No changes\n"
         else
            printf "Changes\n"
-           git commit -m "Automated deployment to update first issues $(date '+%Y-%m-%d')"
+           git commit -a -m "Automated deployment to update first issues $(date '+%Y-%m-%d')"
            git push origin ${UPDATE_BRANCH}
         fi
