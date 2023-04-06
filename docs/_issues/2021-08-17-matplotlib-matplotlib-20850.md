@@ -1,5 +1,5 @@
 ---
-tags: ,Documentation,Good-first-issue,backend-pgf,topic-text/fonts
+tags: Documentation,Good-first-issue,backend-pgf,topic-text/fonts
 title: "[Bug]: Warning: Font Family not found"
 html_url: "https://github.com/matplotlib/matplotlib/issues/20850"
 user: FranzForstmayr

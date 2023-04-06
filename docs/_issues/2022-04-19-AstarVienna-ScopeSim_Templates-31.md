@@ -1,5 +1,5 @@
 ---
-tags: ,ScopeSim-Templates,enhancement
+tags: ScopeSim-Templates,enhancement
 title: "METIS calibration pinhole mask"
 html_url: "https://github.com/AstarVienna/ScopeSim_Templates/issues/31"
 user: astronomyk
@@ -16,8 +16,3 @@ Code used by **TM** - would be better to create a grid of x,y coord then initial
 src = sim.source.source_templates.star(x=0, y=0, flux=0.0001*u.Jy)
 nx=5; X = np.linspace(-0.45,0.45,nx)
 ny=28; Y = np.linspace(-0.27945,0.27945,ny)
-​
-for y in Y:
-    for x in X :
-        src += sim.source.source_templates.star(x=x, y=y, flux=randint(1,12)*u.Jy)
-```

@@ -1,5 +1,5 @@
 ---
-tags: ,enhancement
+tags: enhancement
 title: "Progress bar to be moved from inner loops to outer loops"
 html_url: "https://github.com/kazewong/flowMC/issues/64"
 user: marylou-gabrie

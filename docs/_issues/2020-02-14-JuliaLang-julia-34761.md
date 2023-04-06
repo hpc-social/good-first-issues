@@ -1,5 +1,5 @@
 ---
-tags: ,doc
+tags: doc
 title: "Better documentation for `methods`"
 html_url: "https://github.com/JuliaLang/julia/issues/34761"
 user: Nosferican
@@ -18,4 +18,4 @@ struct C{T}
 end
 methods(C)
 ```
-Basically the way that methods are collected / match isn’t well documented.
+Basically the way that methods are collected / match isn

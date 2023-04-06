@@ -1,5 +1,4 @@
 ---
-tags: 
 title: "Remote logging does not format %s placeholders"
 html_url: "https://github.com/multiscale/muscle3/issues/149"
 user: maarten-ic

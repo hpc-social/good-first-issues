@@ -1,5 +1,4 @@
 ---
-tags: 
 title: "Consider integrating `kalepy` for KDE"
 html_url: "https://github.com/williamjameshandley/anesthetic/issues/131"
 user: lzkelley

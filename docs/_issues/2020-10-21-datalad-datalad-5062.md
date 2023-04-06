@@ -1,5 +1,5 @@
 ---
-tags: ,RIA/ORA,enhancement
+tags: RIA/ORA,enhancement
 title: "RF AnnexRepo: extend/unify init_remote and enable_remote"
 html_url: "https://github.com/datalad/datalad/issues/5062"
 user: yarikoptic

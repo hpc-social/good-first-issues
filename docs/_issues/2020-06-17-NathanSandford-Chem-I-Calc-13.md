@@ -1,5 +1,5 @@
 ---
-tags: ,documentation,help-wanted
+tags: documentation,help-wanted
 title: "readthedocs: \"Tutorials\""
 html_url: "https://github.com/NathanSandford/Chem-I-Calc/issues/13"
 user: NathanSandford
