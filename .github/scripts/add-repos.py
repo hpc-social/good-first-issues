@@ -79,10 +79,9 @@ for repo in listing:
         continue
 
     uid = "/".join(url.split("/")[-2:])
-    url = api_base.format(repo=uid)
 
     # This will return the first
-    response = requests.get(url, headers=headers, params=data)
+    response = requests.get(api_base.format(repo=uid), headers=headers, params=data)
     if response.status_code in [301, 302, 404]:
         print(f"Repository {url} is moved.")
         continue
