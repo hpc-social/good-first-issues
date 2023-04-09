@@ -4,11 +4,11 @@ $('.jobs-table').DataTable( {
      lengthMenu: [ 20, 50, 100 ], //options for entry control
      dom: '<"search-wrap"f<"dropfilters">><"top" l<"clear">><"bottom" tipl>', //https://datatables.net/examples/basic_init/dom.html
      language: {
-      emptyTable:     "There are no jobs available at this time",
+      emptyTable:     "There are no issues available at this time",
       search: "Search by keyword",
-      zeroRecords: "No jobs match your search criteria. Try again or clear the search to start over.",
+      zeroRecords: "No issues match your search criteria. Try again or clear the search to start over.",
       info: "Showing _START_ to _END_ • _TOTAL_",
-      lengthMenu:     "Show _MENU_ jobs",
+      lengthMenu:     "Show _MENU_ issues",
     }    
 } );
 
