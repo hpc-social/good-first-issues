@@ -1699,16 +1699,7 @@ span.soft {
     margin-bottom: 10px;
 }
 
-/* algolia search */
 
-.search {
-    text-align: left;
-}
-.search input {
-    color: white;
-    font-size: 20px;
-    width: 300px;
-}
 .results {
     margin: auto;
     text-align: left;
@@ -1847,44 +1838,3 @@ li, .no-result {
   transform: scale(0.9);
 }
 
-.form-control:focus {
-  color: #495057;
-  background-color: #ffffff1a;
-}
-
-/* -- Input styles ---------------------------------- */
-.form-group {
-  position: relative;
-  margin-top: 35px;
-  margin-bottom: 20px;
-}
-
-.form-control {
-  display: block;
-  height: 36px;
-  max-width: 350px;
-  width: 100%;
-  border: none;
-  border-radius: 0 !important;
-  font-size: 16px;
-  font-weight: 300;
-  padding: 0;
-  background-color: transparent;
-  box-shadow: none;
-  border-bottom: 1px solid #757575;
-  color: white;
-}
-.form-control:focus {
-  border-color: #757575;
-  outline: none;
-  box-shadow: none;
-  color: white;
-}
-
-label {
-  position: absolute;
-  top: -18px;
-  color: #999;
-  font-size: 16px;
-  font-weight: 300;
-}

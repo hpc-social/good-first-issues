@@ -1,0 +1,421 @@
+---
+layout: null
+---
+:root {
+  --bg-color: #666;
+  --bg-hover-color:#36404c;
+  --body-bg: #10171e;
+  --primary-font-color: #fff;
+  --primary-link-color: aqua; 
+  --border-color: #6a6a6a;
+}
+
+[data-theme="light"] {
+    --bg-color: #fafafa;
+    --bg-hover-color: #ececec;
+    --body-bg: #fff;
+    --primary-font-color: #000;
+    --primary-link-color: darkred;
+    --border-color: #dadada;
+}
+
+[data-theme="dark"] {
+  --bg-color: #161f29;
+  --bg-hover-color:#36404c;
+  --body-bg: #10171e;
+  --primary-font-color: #bfbfbf;
+  --border-color: #6a6a6a;
+}
+
+.author-badge {
+  background-color: {% if site.badge_color %}{{ site.badge_color }}{% else %}#e50039{% endif %};
+  margin-right: 5px; 
+  color: black;
+  padding:0px 5px;
+  border-radius:2px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+body{
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 300;
+  background: var(--body-bg);
+  color: var(--primary-font-color);
+  margin: 0;
+  padding: 5px;
+}
+.post-container{
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  width: 100%;
+}
+
+.footer{
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  width: 100%;
+  padding: 5px 10px;
+  background: var(--bg-color);
+  border:1px var(--border-color);
+}
+
+.post-list{
+  width: 100%; 
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  align-items: center;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  background:var(--bg-color);
+  border: 1px var(--border-color);
+}
+
+.post-list:hover{
+  background: var(--bg-hover-color);
+}
+
+.post-list .post-title{width: 80%; color: var(--primary-font-color); font-weight: 600;}
+.post-list .post-date{width: 20%; text-align: right;}
+
+.post-header{
+  width: 100%; 
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  align-items: center;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  background:var(--bg-color);
+  border:1px var(--border-color);
+}
+
+.post-header .post-share{font-weight: 600; color: var(--primary-font-color); display: flex; justify-content: flex-end; align-items: center;}
+.post-header .post-date{font-weight: 600;}
+.post-header .post-share a{display: flex;}
+
+.tags-container{
+  width: 100%; 
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.post-tag{margin-bottom: 5px;}
+
+.tags{display: flex; flex-wrap: wrap; justify-content: space-between;}
+.tag{background: var(--bg-color); padding: 5px 10px; margin-right: 10px; margin-bottom: 10px; display: flex; align-items: center;}
+
+.navigation{
+  width: 100%; 
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: nowrap; 
+  justify-content: space-between; 
+  align-items: center;
+  margin-bottom: 5px;
+  background:var(--bg-color);
+  border:1px var(--border-color);
+
+}
+.navigation .prev{width: 45%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; color: var(--primary-font-color); font-weight: 600; padding: 5px 10px;}
+.navigation .next{width: 45%; color: var(--primary-font-color); overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-weight: 600; text-align: right; padding: 5px 10px;}
+
+.pagination{
+  width: 100%; 
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  align-items: center;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+}
+.pagination .prev{color: var(--primary-font-color); font-weight: 600;}
+.pagination .next{color: var(--primary-font-color); font-weight: 600; text-align: right;}
+
+.blog-post-content{
+  width: 100%;
+  font-size: 18px;
+}
+
+.post-tag{background: var(--bg-color); color:var(--primary-font-color); padding: 5px 10px;}
+
+.profile{
+  width: 100%; 
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  align-items: center;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+}
+.profile-image-container{width: 40%;}
+.profile-image{width: 128px; height: 128px; border-radius: 50%; transition: transform .2s;}
+.profile-image:hover{transform: scale(1.05);}
+.profile-about{width:60%; text-align: right;}
+
+.font-2{font-size: 2rem;}
+.font-1-5{font-size: 1.5rem;}
+.font-1-2{font-size: 1.2rem;}
+.font-0-8{font-size: .8rem;}
+
+.text-right{text-align: right;}
+.w-100{width: 100%!important;}
+
+a:hover{text-decoration: none;}
+a{color: var(--primary-link-color); text-decoration: none;}
+.footer  a{color: var(--primary-font-color); text-decoration: none;}
+img{max-width: 100%;}
+figure{margin:0; padding: 15px;}
+pre{font-size: 14px; max-width: 90vw; overflow: auto;}
+.social-icon{height: 24px;}
+
+@media only screen and (max-width: 768px) {
+  .mode:after {
+    line-height: 22px;
+    left: 1px;
+  }
+  h1{font-size: 1.5rem;}
+  .profile-image{width: 96px; height: 96px;}
+}
+
+[data-theme="dark"] .social-icon{filter: invert(100%) sepia(50%) saturate(0%) hue-rotate(360deg) brightness(100%) contrast(100%);}
+.mode {float: right;position: relative;margin: auto;width: 42px;height: 22px;background: #F1F2F4;border-radius: 20px;cursor: pointer;}
+.mode:after {content: "☀️";position: absolute;top: 0;left: 4px;font-size: 14px;height: 22px;line-height: 23px;text-align: center;transition: all 0.3s ease;}
+.mode.active {background: #0771ca;}
+.mode.active:after {content: "🌛";transform: translateX(20px);}
+.mode.active span {transform: translateX(0);}
+.mode span {position: absolute;z-index: 1;margin: 2px;display: block;width: 18px;height: 18px;background: white;border-radius: 50%;box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);transform: translateX(20px);transition: all 0.4s ease;}
+
+
+/* Table Styling */
+.jobs-table {
+  margin-bottom: 10px !important;
+}
+.jobs-table tr.odd {
+  background-color: var(--bg-color);
+  color: var(--primary-font-color)
+}
+.jobs-table tr.even {
+  background-color: var(--bg-hover-color);
+  color: var(--primary-font-color)
+}
+
+.jobs-table tr td:first-child a {
+  font-weight: bold;
+  border-bottom: 1px dotted #ffac33;
+  text-decoration: none;
+}
+.jobs-table tr td:first-child a:hover {
+  border-bottom: 1px solid #ffac33;
+}
+@media (max-width: 767px) {
+  .jobs-table tr {
+    margin-bottom: 10px;
+    padding-bottom: 10px !important;
+    border-bottom: 1px solid #ddd;
+  }
+  .jobs-table tr td {
+    padding: 0 !important;
+  }
+}
+.jobs-table th {
+  background: #ffac33;
+  color: #000;
+}
+.jobs-table .form-control:focus {
+  border-color: #ffac33 !important;
+}
+
+.arrow-down {
+  position: relative;
+  z-index: 1;
+}
+.arrow-down:before {
+  content: "";
+  background-image: url("https://www.coloradomesa.edu/images/svg/sprite-files-ui/ui/arrow-down.svg");
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: 25px;
+  top: 55px;
+  z-index: 2;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+}
+
+#DataTables_Table_0_filter {
+  float: left;
+  text-align: left;
+  width: 100%;
+  position: relative;
+}
+#DataTables_Table_0_filter:before {
+  content: "";
+  background-image: url("https://www.coloradomesa.edu/images/svg/sprite-files-ui/ui/search.svg");
+  width: 17px;
+  height: 19px;
+  position: absolute;
+  right: 15px;
+  bottom: 12px;
+  z-index: 2;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+}
+#DataTables_Table_0_filter label {
+  font-weight: bold;
+  display: block;
+  margin: 0;
+}
+#DataTables_Table_0_filter input {
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 1rem;
+  height: 40px;
+  padding: 5px 40px 5px 5px;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+#DataTables_Table_0_filter input:focus {
+  border-color: #ffac33 !important;
+  box-shadow: 0 0 0 0.2rem rgba(134, 0, 55, 0.25);
+  outline: none;
+}
+
+.help {
+  opacity: 0.7;
+}
+
+.dataTables_wrapper .top {
+  margin-top: 20px;
+  display: block;
+  overflow: hidden;
+}
+.dataTables_wrapper .top .dataTables_length {
+  float: left;
+  display: block;
+  width: 50%;
+  margin-top: 0px;
+  height: 40px;
+}
+.dataTables_wrapper .top .clear {
+  float: right;
+  width: 50%;
+}
+.dataTables_wrapper .top .clear button {
+  border: none;
+  background: #5e6667;
+  border-radius: 4px;
+  height: 40px;
+  display: block;
+  color: #fff;
+  float: right;
+  width: 150px;
+}
+
+.dataTables_wrapper .bottom .dataTables_length {
+  float: left;
+  display: block;
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 40px;
+}
+
+.dropfilters {
+  margin-bottom: 20px;
+  clear: both;
+}
+.dropfilters label {
+  font-weight: bold;
+  display: block;
+  margin: 10px 0 5px 0;
+}
+.dropfilters input, .dropfilters select {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 1rem;
+  height: 40px;
+  padding: 5px;
+  -webkit-appearance: none;
+}
+.dropfilters .form-control:focus {
+  border-color: #ffac33 !important;
+}
+.dropfilters select > option[value=""] {
+  border: 1px solid red;
+}
+.dropfilters .date-wrapper, .dropfilters .time-wrapper {
+  position: relative;
+}
+.dropfilters .date-wrapper:after, .dropfilters .time-wrapper:after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-image: url("https://www.coloradomesa.edu/images/svg/sprite-files-ui/ui/calendar.svg");
+  position: absolute;
+  right: 30px;
+  top: 52px;
+  background-size: 100%;
+  background-position: center;
+  z-index: 2;
+}
+.dropfilters .time-wrapper:after {
+  background-image: url("https://www.coloradomesa.edu/images/svg/sprite-files-ui/ui/hours.svg");
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+  border-color: #d6d6d6;
+  background: #d6d6d6;
+  color: inherit;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+  border-color: #ffac33;
+  background-color: #ffac33;
+}
+
+.data-entered {
+  background-color: #efefef !important;
+}
+
+.sorting_asc, .sorting_desc {
+  background-color: #e48f14 !important;
+}
+
+.search-wrap {
+  padding: 15px;
+  background: var(--bg-color);
+}
+
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
+  color: var(--font-color);
+}
+
+.dataTables_wrapper .dataTables_length select {
+  color: var(--font-color);
+  border: 1px solid var(--font-color);
+  background-color: transparent;
+  padding: 4px;
+}

@@ -1,0 +1,200 @@
+.order-table {
+  margin-bottom: 10px !important;
+}
+.order-table tr.odd {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+.order-table tr td:first-child a {
+  font-weight: bold;
+  border-bottom: 1px dotted #860037;
+  text-decoration: none;
+}
+.order-table tr td:first-child a:hover {
+  border-bottom: 1px solid #860037;
+}
+@media (max-width: 767px) {
+  .order-table tr {
+    margin-bottom: 10px;
+    padding-bottom: 10px !important;
+    border-bottom: 1px solid #ddd;
+  }
+  .order-table tr td {
+    padding: 0 !important;
+  }
+}
+.order-table th {
+  background: #860037;
+  color: #fff;
+}
+.order-table .form-control:focus {
+  border-color: #860037 !important;
+}
+
+.arrow-down {
+  position: relative;
+  z-index: 1;
+}
+.arrow-down:before {
+  content: "";
+  background-image: url("https://www.coloradomesa.edu/images/svg/sprite-files-ui/ui/arrow-down.svg");
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: 25px;
+  top: 55px;
+  z-index: 2;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+}
+
+#DataTables_Table_0_filter {
+  float: left;
+  text-align: left;
+  width: 100%;
+  position: relative;
+}
+#DataTables_Table_0_filter:before {
+  content: "";
+  background-image: url("https://www.coloradomesa.edu/images/svg/sprite-files-ui/ui/search.svg");
+  width: 17px;
+  height: 19px;
+  position: absolute;
+  right: 15px;
+  bottom: 12px;
+  z-index: 2;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+}
+#DataTables_Table_0_filter label {
+  font-weight: bold;
+  display: block;
+  margin: 0;
+}
+#DataTables_Table_0_filter input {
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 1rem;
+  height: 40px;
+  padding: 5px 40px 5px 5px;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+#DataTables_Table_0_filter input:focus {
+  border-color: #860037 !important;
+  box-shadow: 0 0 0 0.2rem rgba(134, 0, 55, 0.25);
+  outline: none;
+}
+
+.help {
+  opacity: 0.7;
+}
+
+.dataTables_wrapper .top {
+  margin-top: 20px;
+  display: block;
+  overflow: hidden;
+}
+.dataTables_wrapper .top .dataTables_length {
+  float: left;
+  display: block;
+  width: 50%;
+  margin-top: 0px;
+  height: 40px;
+}
+.dataTables_wrapper .top .clear {
+  float: right;
+  width: 50%;
+}
+.dataTables_wrapper .top .clear button {
+  border: none;
+  background: #5e6667;
+  border-radius: 4px;
+  height: 40px;
+  display: block;
+  color: #fff;
+  float: right;
+  width: 150px;
+}
+
+.dataTables_wrapper .bottom .dataTables_length {
+  float: left;
+  display: block;
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 40px;
+}
+
+.dropfilters {
+  margin-bottom: 20px;
+  clear: both;
+}
+.dropfilters label {
+  font-weight: bold;
+  display: block;
+  margin: 10px 0 5px 0;
+}
+.dropfilters input, .dropfilters select {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 1rem;
+  height: 40px;
+  padding: 5px;
+  -webkit-appearance: none;
+}
+.dropfilters .form-control:focus {
+  border-color: #860037 !important;
+}
+.dropfilters select > option[value=""] {
+  border: 1px solid red;
+}
+.dropfilters .date-wrapper, .dropfilters .time-wrapper {
+  position: relative;
+}
+.dropfilters .date-wrapper:after, .dropfilters .time-wrapper:after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-image: url("https://www.coloradomesa.edu/images/svg/sprite-files-ui/ui/calendar.svg");
+  position: absolute;
+  right: 30px;
+  top: 52px;
+  background-size: 100%;
+  background-position: center;
+  z-index: 2;
+}
+.dropfilters .time-wrapper:after {
+  background-image: url("https://www.coloradomesa.edu/images/svg/sprite-files-ui/ui/hours.svg");
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+  border-color: #d6d6d6;
+  background: #d6d6d6;
+  color: inherit;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+  border-color: #860037;
+  background-color: #860037;
+}
+
+.data-entered {
+  background-color: #efefef !important;
+}
+
+.sorting_asc, .sorting_desc {
+  background-color: #67002a !important;
+}
+
+.search-wrap {
+  padding: 15px;
+  background: #efefef;
+}

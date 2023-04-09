@@ -1,0 +1,67 @@
+---
+layout: default
+title: {{ site.name }}
+permalink: /
+---
+
+{% assign tags =  site.issues | map: 'tags' | join: ',' | split: ',' | uniq | sort %}
+{% assign repos = site.issues | map: 'repo' | uniq | sort %}
+{% assign users = site.issues | map: 'user' | uniq | sort %}
+<div class="container my-4" style="padding-top:50px">
+ <div class="row">
+  <div class="col-sm-12">
+    <div id="camp-search">
+    <template id="clear">
+    <div class="reset-filter-toggle">
+      <button title="Refresh Search" id="clear-all">Clear search</button>
+    </div>
+   </template>
+   <template id="filter-wrapper">
+   <div class="row">
+   <div class="col-md-4 col-6 arrow-down">
+       <label>Repository</label> 
+       <select id="repository-filter" class="form-control">
+       <option></option>
+       {% for repo in repos %}<option>{{ repo }}</option>{% endfor %}
+       </select>
+       </div> 
+       <div class="col-md-4 col-6 arrow-down">
+       <label>Tags</label>
+       <select id="tags-filter" class="form-control">
+       <option></option>
+       {% for tag in tags %}<option>{{ tag }}</option>{% endfor %}
+       </select>
+       </div>
+       <div class="col-md-4 col-6 arrow-down">
+       <label>Posted by</label>
+       <select id="posted-by-filter" class="form-control">
+       <option></option>
+       {% for user in users %}<option>{{ user }}</option>{% endfor %}
+       </select>
+       </div>        
+      </template>
+
+<table class="jobs-table mt-4 table table-responsive">
+  <thead>
+    <tr>
+      <th data-sortable="true" width="30%">Title</th>
+      <th data-sortable="true" data-field="repository" width="15%">Repository</th>
+      <th data-sortable="true" data-field="tags" width="15%">Tags</th>
+      <th data-sortable="true" data-field="posted-by" width="15%">Posted By</th>
+   </tr>
+  </thead>
+  <tbody>
+{% for issue in site.issues %}
+    <tr class='tr odd {% cycle "odd" "even" %}'>
+     <td data-order="{{ issue.title }}" ><a target="_blank" href="{{ issue.html_url }}">{{ issue.title }}</a></td>
+     <td data-order="{{ issue.repo }}" ><a href="https://github.com/{{ issue.repo }}" target="_blank">{{ issue.repo }}</td>
+     <td data-order="{{ issue.tags }}" >{{ issue.tags }}</td>
+     <td data-order="{{ issue.user }}" ><a href="https://github.com/{{ issue.user }}" target="_blank">{{ issue.user }}</a></td>
+    </tr>
+{% endfor %}
+  </tbody>
+    </table>
+    </div>
+    </div>
+</div>
+</div>
