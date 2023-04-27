@@ -95,15 +95,16 @@ def generate_markdown(line):
             tags.sort()
             if tags:
                 print("Adding tags %s" % ",".join(tags))
-                content += "tags: %s\n" % (",".join(tags))
+                tags = [f'"{tag}"' for tag in tags]
+                content += "tags: [%s]\n" % (",".join(tags))
 
         # Don't include body!
 
         # Title must have quotes escaped
         content += "title: %s\n" % json.dumps(issue["title"])
         content += 'html_url: "%s"\n' % issue["html_url"]
-        content += "user: %s\n" % (issue["user"]["login"])
-        content += "repo: %s\n" % repo
+        content += 'user: "%s"\n' % (issue["user"]["login"])
+        content += 'repo: "%s"\n' % repo
         content += "---\n\n"
         results.append((filename, content))
 

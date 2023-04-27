@@ -1,8 +1,8 @@
 ---
-tags: Good-First-Issue,kind/feature,quadlet
+tags: ["Good-First-Issue","kind/feature","quadlet"]
 title: "Quadlet should search subdirectories for the unit search path"
 html_url: "https://github.com/containers/podman/issues/18032"
-user: Nitrousoxide
-repo: containers/podman
+user: "Nitrousoxide"
+repo: "containers/podman"
 ---
 

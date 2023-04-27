@@ -1,8 +1,8 @@
 ---
-tags: enhancement
+tags: ["enhancement"]
 title: "Utility request: preprocessing step of Lancaster et al."
 html_url: "https://github.com/JuliaDynamics/TimeseriesSurrogates.jl/issues/73"
-user: Datseris
-repo: JuliaDynamics/TimeseriesSurrogates.jl
+user: "Datseris"
+repo: "JuliaDynamics/TimeseriesSurrogates.jl"
 ---
 

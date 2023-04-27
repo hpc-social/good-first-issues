@@ -1,8 +1,8 @@
 ---
-tags: io
+tags: ["io"]
 title: "Move CSVY writer from custom abundance widget to io"
 html_url: "https://github.com/tardis-sn/tardis/issues/1927"
-user: Rodot-
-repo: tardis-sn/tardis
+user: "Rodot-"
+repo: "tardis-sn/tardis"
 ---
 

@@ -1,8 +1,8 @@
 ---
-tags: feature,help-wanted,parallel
+tags: ["feature","help-wanted","parallel"]
 title: "Distributed.jl should verify Julia version between primary-worker"
 html_url: "https://github.com/JuliaLang/julia/issues/45362"
-user: daharn
-repo: JuliaLang/julia
+user: "daharn"
+repo: "JuliaLang/julia"
 ---
 
