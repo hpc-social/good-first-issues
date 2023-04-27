@@ -55,7 +55,7 @@ permalink: /
     <tr class='tr odd {% cycle "odd" "even" %}'>
      <td data-order="{{ issue.title }}" ><a target="_blank" href="{{ issue.html_url }}">{{ issue.title }}</a></td>
      <td data-order="{{ issue.repo }}" ><a href="https://github.com/{{ issue.repo }}" target="_blank">{{ issue.repo }}</td>
-     <td data-order="{{ issue.tags }}" >{{ issue.tags }}</td>
+     <td data-order="{{ issue.tags }}" >{% for tag in issue.tags %}{{ tag }} {% endfor %}</td>
      <td data-order="{{ issue.user }}" ><a href="https://github.com/{{ issue.user }}" target="_blank">{{ issue.user }}</a></td>
     </tr>
 {% endfor %}
