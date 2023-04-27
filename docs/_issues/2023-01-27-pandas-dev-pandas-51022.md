@@ -6,8 +6,3 @@ user: jbrockmendel
 repo: pandas-dev/pandas
 ---
 
-```python
-pd.Series([1, 2, 3]).take([1], axis="foo")
-```
-
-Nonsense "axis" fails to raise, should raise ValueError.

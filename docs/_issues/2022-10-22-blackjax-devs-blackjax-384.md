@@ -6,4 +6,3 @@ user: rlouf
 repo: blackjax-devs/blackjax
 ---
 
-See for instance implementation in https://github.com/albcab/TESS/blob/master/mcmc_utils.py. It would also help with the implementation of Stein Variational Gradient Descent.

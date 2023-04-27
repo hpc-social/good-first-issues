@@ -6,4 +6,3 @@ user: prihoda
 repo: Merck/BioPhi
 ---
 
-We should provide instructions on providing the OASIS_DB_PATH and mounting the directory so that the database can be accessed when running through `docker run` or `docker-compose`.

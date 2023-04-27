@@ -6,4 +6,3 @@ user: jseabold
 repo: statsmodels/statsmodels
 ---
 
-Might be nice to support pandas objects in DescrStatsW with some kind of wrapper.

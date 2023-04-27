@@ -6,6 +6,3 @@ user: uellue
 repo: LiberTEM/LiberTEM
 ---
 
-Once #1011 is merged, we should update our general examples to use the new plotting methods where appropriate since they remove a lot of boiler plate, in particular for simple cases.
-
-Once it is released, we can also update sub-packages.

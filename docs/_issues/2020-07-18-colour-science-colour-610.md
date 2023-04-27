@@ -6,6 +6,3 @@ user: KelSolaar
 repo: colour-science/colour
 ---
 
-References
----
-- https://onlinelibrary.wiley.com/doi/abs/10.1002/col.22451

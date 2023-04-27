@@ -5,4 +5,3 @@ user: YgabrielsY
 repo: SISPO-developers/sispo
 ---
 
-find last step that was executed

@@ -6,4 +6,3 @@ user: Bisaloo
 repo: ropensci/lightr
 ---
 
-Add more explicit warning when input file is a csv file without `sep = ","`

@@ -6,4 +6,3 @@ user: epassaro
 repo: tardis-sn/carsus
 ---
 
-Write a downloader function for data

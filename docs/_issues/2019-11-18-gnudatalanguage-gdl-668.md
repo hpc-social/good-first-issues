@@ -6,4 +6,3 @@ user: slayoo
 repo: gnudatalanguage/gdl
 ---
 
-added in #666 

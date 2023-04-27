@@ -5,4 +5,3 @@ user: YgabrielsY
 repo: SISPO-developers/sispo
 ---
 
-Add bibtex style citation into readme

@@ -6,4 +6,3 @@ user: ianfhunter
 repo: ianfhunter/GNOLL
 ---
 
-The badges in the main readme should redirect users to the documentation for that language when clicked 

@@ -6,6 +6,3 @@ user: kratsg
 repo: scikit-hep/pyhf
 ---
 
-# Description
-
-We just need more tests to ensure full coverage now that #337 is merged in.

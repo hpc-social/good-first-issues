@@ -6,4 +6,3 @@ user: junpenglao
 repo: blackjax-devs/blackjax
 ---
 
-Currently the doc is only showing HEAD, we should at least add latest release tag to the doc.

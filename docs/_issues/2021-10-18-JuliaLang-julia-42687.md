@@ -6,8 +6,3 @@ user: timholy
 repo: JuliaLang/julia
 ---
 
-From `julia>` mode, `;` switches to `shell>` and `]` switches to `pkg>`.
-From `pkg>` mode, `;` switches to `shell>`
-From `shell>` mode, `]` does **not** switch into `pkg>`
-
-It would be great to fix the last one.

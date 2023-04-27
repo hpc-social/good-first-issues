@@ -6,4 +6,3 @@ user: muhrin
 repo: aiidateam/aiida-core
 ---
 
-Currently a couple of computer properties have class constants that store the corresponding name e.g. `PROPERTY_WORKDIR = 'workdir'`.  This should be extended for all properties e.g. `mpirun_command`.

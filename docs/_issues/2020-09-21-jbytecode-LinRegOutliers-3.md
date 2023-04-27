@@ -6,4 +6,3 @@ user: jbytecode
 repo: jbytecode/LinRegOutliers
 ---
 
-@fmyilmaz seems to be a newcomer, welcome. we can discuss the package development details here.

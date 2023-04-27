@@ -5,4 +5,3 @@ user: symmy596
 repo: symmy596/SurfinPy
 ---
 
-Output file for the final phase diagram and a function to read that output file back into the program. This functionality allows users to alter the final plot to suit their needs. 

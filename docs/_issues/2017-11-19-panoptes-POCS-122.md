@@ -6,6 +6,3 @@ user: wtgee
 repo: panoptes/POCS
 ---
 
-Newest gphoto2 supports event sending when picture is done taking. Not sure it works for bulb mode but would facilitate our current subprocess checking.
-
-http://www.gphoto.org/news/

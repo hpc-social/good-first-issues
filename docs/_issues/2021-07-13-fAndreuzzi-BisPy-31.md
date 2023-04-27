@@ -6,4 +6,3 @@ user: fAndreuzzi
 repo: fAndreuzzi/BisPy
 ---
 
-It would be nice to organize better the test cases. Maybe using `numpy` (or something similar) to store graphs(?)

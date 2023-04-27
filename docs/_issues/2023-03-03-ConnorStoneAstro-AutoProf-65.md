@@ -6,4 +6,3 @@ user: ConnorStoneAstro
 repo: ConnorStoneAstro/AutoProf
 ---
 
-The utils functions need unit tests. A lot of code is already covered, but we need more. Ideally this should be at about 90%

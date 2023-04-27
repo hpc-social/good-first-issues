@@ -6,4 +6,3 @@ user: wtgee
 repo: panoptes/POCS
 ---
 
-Currently missing some params, e.g. `sleep_delay`, `safe_delay`

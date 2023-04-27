@@ -6,4 +6,3 @@ user: sblunt
 repo: sblunt/orbitize
 ---
 
-add deprecation warnings to results plotting methods

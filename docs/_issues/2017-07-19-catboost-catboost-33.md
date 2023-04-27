@@ -6,10 +6,3 @@ user: szilard
 repo: catboost/catboost
 ---
 
-vs h2o/xgboost/lightgbm:
-https://github.com/szilard/GBM-perf/issues/4
-
-also see this: 
-https://github.com/szilard/benchm-ml
-
-

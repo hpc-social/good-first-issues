@@ -6,6 +6,3 @@ user: bastula
 repo: dicompyler/dicompyler-core
 ---
 
-Documentation with more examples would be great.
-
-Ideally docstrings need to be completed for the `dvhcalc` module as well.

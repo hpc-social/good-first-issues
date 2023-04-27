@@ -6,4 +6,3 @@ user: alwinm
 repo: cholla-hydro/cholla
 ---
 
-I converted this Project card by @bcaddy into an issue because I am also interested in whether we can make gains in occupancy. 

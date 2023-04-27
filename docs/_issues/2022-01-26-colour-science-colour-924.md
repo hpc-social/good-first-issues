@@ -6,6 +6,3 @@ user: KelSolaar
 repo: colour-science/colour
 ---
 
-References
----
-- https://cgg.mff.cuni.cz/publications/an-openexr-layout-for-spectral-images/

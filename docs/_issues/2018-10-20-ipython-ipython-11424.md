@@ -6,5 +6,3 @@ user: Carreau
 repo: ipython/ipython
 ---
 
-Stderr/out and especially traceback get garbled in the out with Ansi escape sequence. 
-We should figure out how to turn coloring off, or strip escape sequences. 

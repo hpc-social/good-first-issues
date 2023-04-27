@@ -6,4 +6,3 @@ user: dsavransky
 repo: dsavransky/EXOSIMS
 ---
 
-targetlist & surveysim are still using the Henry 1993 MLR.  This should be updated to a more recent reference.

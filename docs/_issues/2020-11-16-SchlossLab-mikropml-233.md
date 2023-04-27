@@ -6,6 +6,3 @@ user: kelly-sovacool
 repo: SchlossLab/mikropml
 ---
 
-Describe `--max-ppsize=500000` as a solution to #156 and include helpful links to the R docs & Stack Overflow.
-
-(Thanks @courtneyarmour!)

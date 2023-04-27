@@ -6,6 +6,3 @@ user: ivirshup
 repo: scverse/anndata
 ---
 
-The prose [`concat`](https://anndata.readthedocs.io/en/latest/concatenation.html) documentation could use an example of concatenating along the `var` axis.
-
-Inspiration: #485

@@ -5,6 +5,3 @@ user: Carreau
 repo: jupyter/notebook
 ---
 
-cf https://github.com/jupyter/notebook/pull/708#issuecomment-164293699, 
-
-That would be useful to debug some issues. 

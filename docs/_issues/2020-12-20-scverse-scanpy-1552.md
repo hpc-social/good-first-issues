@@ -6,4 +6,3 @@ user: rpeys
 repo: scverse/scanpy
 ---
 
-It would be nice to have a way to split the violin plots from `sc.pl.violin()` into a specific number of rows, similar to the `ncols` parameter in `scanpy.pl.umap()`

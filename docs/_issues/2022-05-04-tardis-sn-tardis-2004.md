@@ -6,4 +6,3 @@ user: epassaro
 repo: tardis-sn/tardis
 ---
 
-Replace with appropriate `.loc` or `.iloc` method.

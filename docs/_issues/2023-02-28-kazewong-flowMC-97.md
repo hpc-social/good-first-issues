@@ -5,4 +5,3 @@ user: kazewong
 repo: kazewong/flowMC
 ---
 
-There are no automated workflows for building documentation and publishing package to PyPI right now. It would be nice to have the workflows setup.

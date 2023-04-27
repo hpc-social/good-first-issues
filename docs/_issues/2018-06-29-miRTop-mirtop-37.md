@@ -6,8 +6,3 @@ user: lpantano
 repo: miRTop/mirtop
 ---
 
-Please, go around the documentation and report issues with that or/and offer a PR! 
-
-link: https://mirtop.readthedocs.io/en/latest/
-
-Thanks!

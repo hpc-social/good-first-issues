@@ -5,4 +5,3 @@ user: YgabrielsY
 repo: SISPO-developers/sispo
 ---
 
-Instrument should be selectable rgb/monochrome

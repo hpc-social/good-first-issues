@@ -6,4 +6,3 @@ user: RoryBarnes
 repo: VirtualPlanetaryLaboratory/vplanet
 ---
 
-A halt needs to be added to ensure POISE is not used at high eccentricity.

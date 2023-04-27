@@ -5,4 +5,3 @@ user: YgabrielsY
 repo: SISPO-developers/sispo
 ---
 
-Add type hints (PEP-484)

@@ -6,6 +6,3 @@ user: pjanck
 repo: tumcms/Open-Infra-Platform
 ---
 
-https://allcontributors.org/docs/en/specification
-
-It looks cool.

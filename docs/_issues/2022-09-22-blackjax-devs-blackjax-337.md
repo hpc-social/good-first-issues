@@ -6,4 +6,3 @@ user: rlouf
 repo: blackjax-devs/blackjax
 ---
 
-Publish the doc for each PR individually 

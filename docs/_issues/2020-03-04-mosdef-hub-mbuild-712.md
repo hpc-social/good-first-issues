@@ -6,4 +6,3 @@ user: chrisiacovella
 repo: mosdef-hub/mbuild
 ---
 
-Make it clearer the purpose/role of tutorials, example workflows, and documentation, especially in the context of "how to get started."  @bdice had some thoughts on how he restructured the hoomd page to better convey this. 

@@ -5,4 +5,3 @@ user: justinshenk
 repo: delve-team/delve
 ---
 
-Please provide results for testing on a Keras implementation of a linear regression task.

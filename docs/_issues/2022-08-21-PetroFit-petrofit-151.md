@@ -6,4 +6,3 @@ user: robelgeda
 repo: PetroFit/petrofit
 ---
 
-Give option to over plot segmentation labels (ids)

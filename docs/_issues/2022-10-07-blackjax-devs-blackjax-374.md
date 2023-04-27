@@ -6,4 +6,3 @@ user: rlouf
 repo: blackjax-devs/blackjax
 ---
 
-Add a "How to use forward-mode differentiation instead of backward-mode differentiation" tutorial

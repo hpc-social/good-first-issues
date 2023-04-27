@@ -6,4 +6,3 @@ user: sphuber
 repo: aiidateam/aiida-core
 ---
 
-See discussion in PR #5673 

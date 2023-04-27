@@ -6,4 +6,3 @@ user: rlouf
 repo: blackjax-devs/blackjax
 ---
 
-https://arxiv.org/abs/1608.04471

@@ -6,6 +6,3 @@ user: dstansby
 repo: astropy/astropy
 ---
 
-e.g. see this page: http://docs.sunpy.org/en/stable/api/sunpy.coordinates.frames.HeliographicStonyhurst.html#sunpy.coordinates.frames.HeliographicStonyhurst and scroll down to "Attributes summary"
-
-Because `BaseCoordinateFrame` has a few class attributes, these get automatically documented (without any docstrings) when documenting an inheriting class. It would be nice to make these disappear somehow - maybe converting them to properties, and making the class attributes hidden by putting an underscore before their names?

@@ -5,6 +5,3 @@ user: lpantano
 repo: miRTop/mirtop
 ---
 
-the header of sRNAbench needs to be improved with proper information.
-
-Chime in if you want to work on this. It needs a function similar to `mirtop.importer.seqbuster.header()` but in `mirtop.importer.srnabench.header()`.

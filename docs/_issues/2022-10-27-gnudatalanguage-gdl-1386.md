@@ -6,5 +6,3 @@ user: alaingdl
 repo: gnudatalanguage/gdl
 ---
 
-This is a new keyword. Should not be too difficult to add it since it is not difficult to have the list
-of pro/fun already compiled ...

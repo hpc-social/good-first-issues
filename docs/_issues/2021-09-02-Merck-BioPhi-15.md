@@ -6,4 +6,3 @@ user: prihoda
 repo: Merck/BioPhi
 ---
 
-It would be nice to be able to navigate between all results without having to go back to the result table page

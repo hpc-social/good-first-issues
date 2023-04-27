@@ -6,4 +6,3 @@ user: sfsinger19103
 repo: ElectionDataAnalysis/electiondata
 ---
 
-Test US Senate contest totals wherever they exist

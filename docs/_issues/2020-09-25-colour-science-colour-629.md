@@ -6,6 +6,3 @@ user: KelSolaar
 repo: colour-science/colour
 ---
 
-References
----
-- https://gitter.im/colour-science/colour?at=5f622c705fde567ffa4f66f5

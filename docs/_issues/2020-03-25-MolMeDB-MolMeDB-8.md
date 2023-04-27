@@ -5,4 +5,3 @@ user: KarelBerka
 repo: MolMeDB/MolMeDB
 ---
 
-Use similar font thorough the logo - and have it in two color variants (with dark (on homepage) and white (on contact page) background ) 

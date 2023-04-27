@@ -6,4 +6,3 @@ user: apdavison
 repo: NeuralEnsemble/PyNN
 ---
 
-I propose to extend the `get()` method of `Population`, `PopulationView` and `Assembly` to allow returning the current value of state variables, such as the membrane potential.

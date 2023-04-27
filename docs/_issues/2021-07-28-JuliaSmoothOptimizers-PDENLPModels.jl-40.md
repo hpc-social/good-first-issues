@@ -6,5 +6,3 @@ user: tmigot
 repo: JuliaSmoothOptimizers/PDENLPModels.jl
 ---
 
-- [ ] automatize the initial guess (when no real unknown)
-- [x] avoid having to concatenate `Ypde` and `Ycon` before calling the constructor.

@@ -6,6 +6,3 @@ user: ekothe
 repo: ropenscilabs/gendercoder
 ---
 
-We'd love feedback or pull requests to add terms to the dictionary.
-
-You can do this by adding entries to GenderDictionary.csv

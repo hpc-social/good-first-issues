@@ -6,4 +6,3 @@ user: sblunt
 repo: sblunt/orbitize
 ---
 
-It would be great to have a detailed tutorial walking folks through number of burn-in steps/total steps for MCMC. This is a question I get asked a lot over email.

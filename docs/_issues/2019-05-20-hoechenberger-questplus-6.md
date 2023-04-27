@@ -6,4 +6,3 @@ user: hoechenberger
 repo: hoechenberger/questplus
 ---
 
-Add references to Watson (2017), King-Smith et al. (1994), etc.

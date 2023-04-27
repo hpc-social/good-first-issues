@@ -6,4 +6,3 @@ user: cloga
 repo: statsmodels/statsmodels
 ---
 
-I find sandbox>tool has cross_validate.py, and there are many functions from sklearn include split , are there any update?

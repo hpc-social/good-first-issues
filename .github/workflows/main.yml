@@ -18,11 +18,15 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: python .github/scripts/add-repos.py
+
+    # This is customized from the action to not add a body
     - name: Generate First Issues
-      uses: rseng/good-first-issues@master
-      with:
-        repos-file: '.github/repos.txt'
-        token: ${{ secrets.GITHUB_TOKEN }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+         rm -rf docs/_issues
+         mkdir -p docs/_issues
+         python .github/scripts/generate-first-issues.py
 
     - name: Update Repository
       if: (github.event_name != 'pull_request')

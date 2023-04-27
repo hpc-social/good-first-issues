@@ -6,4 +6,3 @@ user: rlouf
 repo: blackjax-devs/blackjax
 ---
 
-Add Colab notebook with examples running on GPU

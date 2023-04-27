@@ -6,4 +6,3 @@ user: Robinlovelace
 repo: ropensci/osmextract
 ---
 
-This one looks good: http://download.openstreetmap.fr/extracts/

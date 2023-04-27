@@ -6,6 +6,3 @@ user: Daniel-Dodd
 repo: thomaspinder/GPJax
 ---
 
-# Feature Request
-
-Write notebook with mathematical background and illustrate performance advantage of using natural gradients.

@@ -6,4 +6,3 @@ user: minakshikaushik
 repo: firefly-cpp/NiaARM
 ---
 
-Add Apriori algorithm also for better comparison

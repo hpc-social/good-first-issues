@@ -6,4 +6,3 @@ user: gcroci2
 repo: DeepRank/deeprank-core
 ---
 
-See https://immuneml.uio.no/ as example and [Creating a GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site) as reference.

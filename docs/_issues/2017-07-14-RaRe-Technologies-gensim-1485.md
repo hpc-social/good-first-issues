@@ -6,6 +6,3 @@ user: prakhar2b
 repo: RaRe-Technologies/gensim
 ---
 
-Based on discussion [here](https://groups.google.com/forum/#!topic/gensim/nKVWoftW71Q), we should properly check for filename before `process calls` in `utils.check_output()`, and raise more intuitive exception and error message.
-
-cc @jayantj 

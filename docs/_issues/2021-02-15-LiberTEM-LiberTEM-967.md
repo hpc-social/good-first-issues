@@ -6,15 +6,3 @@ user: uellue
 repo: LiberTEM/LiberTEM
 ---
 
-## How to reproduce
-
-* Use a rectangular ROI or use Clust
-* Move the selectors by mouse
-
-## What happens
-
-The selectors are unbounded
-
-## What should happen
-
-They are limited by the FOV

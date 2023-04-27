@@ -6,4 +6,3 @@ user: hombit
 repo: snad-space/ztf-viewer
 ---
 
-Limit max number of Simbad rows

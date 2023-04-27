@@ -6,4 +6,3 @@ user: mr-c
 repo: simd-everywhere/simde
 ---
 
-Best to catch bugs early !

@@ -5,4 +5,3 @@ user: dpalmasan
 repo: dpalmasan/TRUNAJOD2.0
 ---
 
-Add type hints to `src/lexico_semantic_norms.py`

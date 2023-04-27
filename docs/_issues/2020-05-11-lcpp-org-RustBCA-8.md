@@ -6,4 +6,3 @@ user: drobnyjt
 repo: lcpp-org/RustBCA
 ---
 
-Need test coverage of all functions

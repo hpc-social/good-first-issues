@@ -5,4 +5,3 @@ user: YgabrielsY
 repo: SISPO-developers/sispo
 ---
 
-Read configuration from log files

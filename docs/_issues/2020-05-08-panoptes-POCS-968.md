@@ -6,4 +6,3 @@ user: wtgee
 repo: panoptes/POCS
 ---
 
-When adding a target to the scheduler it would be nice to be able to add a series of comma separated tags that would be populated into the metadata db for searching.

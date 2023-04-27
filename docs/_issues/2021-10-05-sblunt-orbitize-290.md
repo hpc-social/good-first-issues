@@ -6,4 +6,3 @@ user: sblunt
 repo: sblunt/orbitize
 ---
 
-The Gaia module currently assumes measurements are uncorrelated, but since we have this information in both DR2 and eDR3, we should use it. 

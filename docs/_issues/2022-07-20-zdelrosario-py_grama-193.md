@@ -5,4 +5,3 @@ user: zdelrosario
 repo: zdelrosario/py_grama
 ---
 
-Functions like `np.arctan2` do not have a symbolic wrapper in grama. Implement!

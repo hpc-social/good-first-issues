@@ -6,6 +6,3 @@ user: Ravenwater
 repo: stillwater-sc/universal
 ---
 
-visualizing the expansion/contraction of the ubox for unum Type 1 (and valid) number systems during a computation.
-
-Useful for debugging and education/documentation of algorithms and numerical analysis.

@@ -6,4 +6,3 @@ user: artgoldberg
 repo: KarrLab/de_sim
 ---
 
-Move fast logger to wc_utils

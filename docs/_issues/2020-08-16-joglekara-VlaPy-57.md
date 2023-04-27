@@ -6,5 +6,3 @@ user: joglekara
 repo: joglekara/VlaPy
 ---
 
-Done:
-Have plots of `Compute_time` with  respect to `Nx` and `Nv` for `dg`, `lb`, `naive`, `batched_tridiagonal`.

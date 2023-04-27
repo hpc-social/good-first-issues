@@ -6,4 +6,3 @@ user: NathanSandford
 repo: NathanSandford/Chem-I-Calc
 ---
 
-Add more tutorials. Preferably in the form of Jupyter notebooks? 

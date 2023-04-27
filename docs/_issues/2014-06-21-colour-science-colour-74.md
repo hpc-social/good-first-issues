@@ -6,4 +6,3 @@ user: KelSolaar
 repo: colour-science/colour
 ---
 
-Implement "Beer–Lambert Law" support.

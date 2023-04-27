@@ -6,10 +6,3 @@ user: flyaflya
 repo: flyaflya/causact
 ---
 
-currently, within dag_greta() the following line is automatically added:
-
-`
-draws       <- replaceLabels(draws)   #POSTERIOR
-`
-
-This line should be omitted when meaningfulLabels = FALSE is passed to dag_greta().

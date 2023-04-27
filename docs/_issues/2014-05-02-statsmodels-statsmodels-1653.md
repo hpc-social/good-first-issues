@@ -6,4 +6,3 @@ user: jseabold
 repo: statsmodels/statsmodels
 ---
 
-Confusion matrices have been requested also for GLM. Currently now only for Binomial discrete choice model results.

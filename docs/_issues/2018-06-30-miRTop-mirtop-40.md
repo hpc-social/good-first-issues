@@ -6,4 +6,3 @@ user: lpantano
 repo: miRTop/mirtop
 ---
 
-It would be good to integrate mirtop operations into galaxy.

@@ -6,5 +6,3 @@ user: Carreau
 repo: ipython/ipython
 ---
 
-`make.cmd` does not run `python autogen_api.py`on windows.
-See #2601

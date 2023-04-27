@@ -6,4 +6,3 @@ user: ianfhunter
 repo: ianfhunter/GNOLL
 ---
 
-https://github.com/marketplace/actions/sonarcloud-scan-for-c-and-c

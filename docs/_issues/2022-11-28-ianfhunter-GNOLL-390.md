@@ -6,5 +6,3 @@ user: ianfhunter
 repo: ianfhunter/GNOLL
 ---
 
-d% - works, rolls 1-100
-z% should roll 0-99

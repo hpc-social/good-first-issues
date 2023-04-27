@@ -6,4 +6,3 @@ user: tacaswell
 repo: bluesky/bluesky
 ---
 
-I think we may have to write a sphinx extension to do this :disappointed: .

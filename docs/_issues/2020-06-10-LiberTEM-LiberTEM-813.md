@@ -6,6 +6,3 @@ user: uellue
 repo: LiberTEM/LiberTEM
 ---
 
-Follow-up to #760
-
-CC @SimeonEhrig :-)

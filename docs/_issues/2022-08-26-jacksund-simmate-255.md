@@ -6,18 +6,3 @@ user: mctaggartdh
 repo: jacksund/simmate
 ---
 
-### Describe the desired feature
-
-When corrected hull energies from Material's Project are imported, allow other tables to use updated values
-
-### Current behavior and/or alternatives
-
-_No response_
-
-### Example Use
-
-_No response_
-
-### Additional context
-
-_No response_

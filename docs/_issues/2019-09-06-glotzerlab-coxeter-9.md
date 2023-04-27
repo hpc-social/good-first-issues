@@ -6,4 +6,3 @@ user: b-butler
 repo: glotzerlab/coxeter
 ---
 
-Equality checks based on points would  be useful for tests and general comparisons.

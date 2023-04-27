@@ -6,4 +6,3 @@ user: Moelf
 repo: JuliaHEP/UnROOT.jl
 ---
 
-https://github.com/simeonschaub/ArtifactUtils.jl

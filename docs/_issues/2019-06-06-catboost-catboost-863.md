@@ -6,6 +6,3 @@ user: wboleksii
 repo: catboost/catboost
 ---
 
-Hi,
-
-Is there a plan to support categorical features when exporting to Onnx format?

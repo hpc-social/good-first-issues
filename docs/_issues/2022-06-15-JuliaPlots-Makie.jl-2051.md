@@ -6,4 +6,3 @@ user: CameronBieganek
 repo: JuliaPlots/Makie.jl
 ---
 
-These are pretty fundamental operations and a new user has no idea how to do them after reading the Basic Tutorial. Also, I'm not sure if these methods are discouraged in favor of `axis = (limits = ..., )`.

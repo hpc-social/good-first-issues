@@ -6,6 +6,3 @@ user: aminnj
 repo: JuliaHEP/UnROOT.jl
 ---
 
-We should make a benchmark suite to make sure we don't regress...
-
-I don't think CI would be very happy to pull in a 2GB file for benchmarking ;) To start off with, it could even be just a local script to run.

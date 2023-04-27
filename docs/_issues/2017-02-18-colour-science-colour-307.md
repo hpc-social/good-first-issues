@@ -6,4 +6,3 @@ user: KelSolaar
 repo: colour-science/colour
 ---
 
-I noticed some discrepancies between the output of "colour.scattering_cross_section" definition and Bodhaine, Wood, Dutton and Slusser (1999) ground truth data that need to be investigated.

@@ -6,6 +6,3 @@ user: syasini
 repo: syasini/AstroPaint
 ---
 
-Current test cases are very limited. More tests needed. 
-
-Comment to discuss cases. 

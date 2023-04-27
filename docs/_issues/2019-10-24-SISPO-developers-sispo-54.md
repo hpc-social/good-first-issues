@@ -6,4 +6,3 @@ user: YgabrielsY
 repo: SISPO-developers/sispo
 ---
 
-Add realistic spacecraft attitude motion

@@ -6,4 +6,3 @@ user: apdavison
 repo: NeuralEnsemble/PyNN
 ---
 
-in `NodePopulation.from_data()` and `NodePopulation.to_assembly()`

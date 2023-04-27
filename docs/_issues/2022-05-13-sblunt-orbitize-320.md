@@ -6,4 +6,3 @@ user: sblunt
 repo: sblunt/orbitize
 ---
 
-This should be straightforward. We just need to modify the Nielsen test to assess the IAD.

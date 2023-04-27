@@ -6,6 +6,3 @@ user: uellue
 repo: LiberTEM/LiberTEM
 ---
 
-A dataset's `get_diagnostics()` method can help to find additional datasets in a HDF5 file.
-
-Side note -- is the info button in the GUI documented that provides the same info?

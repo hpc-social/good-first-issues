@@ -6,5 +6,3 @@ user: pjanck
 repo: tumcms/Open-Infra-Platform
 ---
 
-
-Implement the citation support from GitHub: https://github.blog/2021-08-19-enhanced-support-citations-github/

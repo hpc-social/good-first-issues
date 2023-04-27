@@ -6,4 +6,3 @@ user: robelgeda
 repo: PetroFit/petrofit
 ---
 
-should be an option to show color bar in `plot_fit`

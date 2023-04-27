@@ -6,6 +6,3 @@ user: mattn
 repo: tensorflow/tensorflow
 ---
 
-Current implementation of Go binding can not specify options.
-
-GPUOptions struct is in internal package. And `go generate` doesn't work for protobuf directory. So we can't specify GPUOptions for `NewSession`.

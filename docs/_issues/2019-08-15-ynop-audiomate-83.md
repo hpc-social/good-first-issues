@@ -6,7 +6,3 @@ user: ynop
 repo: ynop/audiomate
 ---
 
-The names of readers/writers are only listed in the source-code.
-(The name that is needed in ```Corpus.load(..., reader=[name])```)
-A list should be available in the documentation.
-e.g. in the list of available datasets

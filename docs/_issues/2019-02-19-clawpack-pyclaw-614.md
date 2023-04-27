@@ -6,4 +6,3 @@ user: mandli
 repo: clawpack/pyclaw
 ---
 
-If a mapping is specified between the computational and physical domains do some internal checks to make sure that the problem has been setup correctly (and fully).  The reverse also should be true.

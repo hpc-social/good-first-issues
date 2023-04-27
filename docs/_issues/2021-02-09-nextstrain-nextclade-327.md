@@ -6,6 +6,3 @@ user: ivan-aksamentov
 repo: nextstrain/nextclade
 ---
 
-We want to ensure solid static analysis to catch even more bugs
-
-Related: #326 

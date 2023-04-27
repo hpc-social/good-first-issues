@@ -6,5 +6,3 @@ user: matteobachetti
 repo: StingraySoftware/stingray
 ---
 
-Created here in HENDRICS for convenience, with the basic information that should be available at the very least:
-https://github.com/StingraySoftware/HENDRICS/blob/master/hendrics/io.py#L62

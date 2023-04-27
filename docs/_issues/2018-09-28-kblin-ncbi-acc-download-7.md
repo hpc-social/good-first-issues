@@ -6,4 +6,3 @@ user: tseemann
 repo: kblin/ncbi-acc-download
 ---
 
-When using `-v` it would be good that if after downloading it printed out the file names it just wrote to disk.

@@ -6,4 +6,3 @@ user: slayoo
 repo: gnudatalanguage/gdl
 ---
 
-logic introduce in this commit: https://github.com/gnudatalanguage/gdl/pull/614/files#diff-99ad2fb3a948d5a5f3c08ec9988bb5df

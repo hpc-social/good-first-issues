@@ -6,5 +6,3 @@ user: matteobachetti
 repo: StingraySoftware/stingray
 ---
 
-It was never meant for use outside Astropy, as per
-https://github.com/astropy/astropy/issues/11500

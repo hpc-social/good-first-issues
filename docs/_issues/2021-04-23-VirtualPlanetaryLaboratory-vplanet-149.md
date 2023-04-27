@@ -6,4 +6,3 @@ user: RoryBarnes
 repo: VirtualPlanetaryLaboratory/vplanet
 ---
 
-When the code outputs parameters, it loops over all possible values, MODULEOPTEND, which is inefficient. Instead the code should record the number of outputs per body and just loop over them. 

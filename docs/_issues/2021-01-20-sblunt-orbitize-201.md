@@ -6,4 +6,3 @@ user: sblunt
 repo: sblunt/orbitize
 ---
 
-It would be helpful to add a visualization of best-fit residuals to the orbit plot. 

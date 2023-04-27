@@ -6,4 +6,3 @@ user: KathleenLabrie
 repo: GeminiDRSoftware/DRAGONS
 ---
 
-Currently, the x, y shifts must be separated by exactly one space.  One space, two spaces, 10 spaces, a tab, whatever, should work just the same.  The split currently splits on " ", just one space.  A "re" could be use instead.

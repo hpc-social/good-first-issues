@@ -6,4 +6,3 @@ user: corneliusroemer
 repo: nextstrain/nextclade
 ---
 
-ENH: Add osx-arm executable to bioconda

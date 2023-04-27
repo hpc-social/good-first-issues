@@ -6,12 +6,3 @@ user: kratsg
 repo: scikit-hep/pyhf
 ---
 
-# Description
-
-It would be nice to have a systematic breakdown table. In HistFitter, this is done with
-
-```
-SysTable.py -w your_workspace -c regionName -s sampleName
-```
-
-More info here: https://twiki.cern.ch/twiki/bin/view/AtlasProtected/HistFitterTutorial#Systematics_table

@@ -5,6 +5,3 @@ user: JoaoRodrigues
 repo: biopython/biopython
 ---
 
-Follow-up to #4256, we should replace the print statements in the NCBIXML module by either calls to `warnings` or to `sys.stderr`, to be easier to ignore/discard.
-
-Labelling this as a good first issue, but feel free to remove the label @peterjc.

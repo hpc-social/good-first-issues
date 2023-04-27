@@ -6,4 +6,3 @@ user: isuruf
 repo: conda-forge/conda-smithy
 ---
 
-Linter should hint about wrapping text

@@ -6,4 +6,3 @@ user: apdavison
 repo: NeuralEnsemble/PyNN
 ---
 
-Need to check that the dtypes in HDF5 files created by the `sonata` module match the spec at https://github.com/AllenInstitute/sonata/blob/master/docs/SONATA_DEVELOPER_GUIDE.md#network_config

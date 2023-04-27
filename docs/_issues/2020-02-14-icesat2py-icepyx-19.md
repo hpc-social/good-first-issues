@@ -6,4 +6,3 @@ user: JessicaS11
 repo: icesat2py/icepyx
 ---
 
-Functionality is rapidly being added to icepyx. We're looking for a team to make sure our test suite is fully capturing that functionality. No prior experience with automatic testing needed!

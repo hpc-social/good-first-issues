@@ -6,4 +6,3 @@ user: sblunt
 repo: sblunt/orbitize
 ---
 
-Add unit tests to explicitly test different combinations of data types

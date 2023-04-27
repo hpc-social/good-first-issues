@@ -6,4 +6,3 @@ user: GillesDuvert
 repo: gnudatalanguage/gdl
 ---
 
-See #601 . Was done for CW_BGROUP

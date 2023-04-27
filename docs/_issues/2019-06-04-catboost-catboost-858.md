@@ -6,6 +6,3 @@ user: ancasarb
 repo: catboost/catboost
 ---
 
-Currently only predict(...) is supported by the Java API, would it be possible to support the predict_proba(...) for the catboost classifier in Java as well?
-
-Thank you!

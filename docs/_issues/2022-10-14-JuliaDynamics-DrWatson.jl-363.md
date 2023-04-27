@@ -6,5 +6,3 @@ user: math4mad
 repo: JuliaDynamics/DrWatson.jl
 ---
 
-sorry for that !  Useable module part make me confuse. Better make  a  minimal  folder structure demo
-

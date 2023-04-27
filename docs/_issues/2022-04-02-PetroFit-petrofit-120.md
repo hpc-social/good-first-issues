@@ -6,4 +6,3 @@ user: robelgeda
 repo: PetroFit/petrofit
 ---
 
-Add WCS sky projection for.`plot_fit` as well as a way to update ax labels without having to do it outside the function.

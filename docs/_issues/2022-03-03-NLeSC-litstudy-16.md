@@ -6,4 +6,3 @@ user: stijnh
 repo: NLeSC/litstudy
 ---
 
-WoS (Web of Science) is a very popular database for scientific literature. There exists an Python wrapper for their API (https://pypi.org/project/wos/). It would be great if this was supported in `litstudy`.

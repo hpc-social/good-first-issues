@@ -6,5 +6,3 @@ user: brandy125
 repo: gnudatalanguage/gdl
 ---
 
-Any chance to implement comfit?
-If not, how to get exponential fitting with implemented functions in GDL?

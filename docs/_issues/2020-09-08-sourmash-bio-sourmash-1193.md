@@ -5,6 +5,3 @@ user: ctb
 repo: sourmash-bio/sourmash
 ---
 
-reported by @bluegenes -- right now the `__repr__` relies on `self.filename`, which is sometimes set to `None`.
-
-The fix is to check if `self.filename` is None, and if so, just display `LCA_Database()`. See file `sourmash/lca/lca_db.py`.

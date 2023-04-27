@@ -6,4 +6,3 @@ user: lucydot
 repo: lucydot/effmass
 ---
 
-Fix Link to effective mass PRB paper in documentation.

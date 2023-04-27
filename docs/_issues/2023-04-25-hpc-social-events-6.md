@@ -5,4 +5,3 @@ user: vsoch
 repo: hpc-social/events
 ---
 
-We should have either/and a "Click to add to calendar" for individual events or (easier to start) the ical feeds they can copy to use.

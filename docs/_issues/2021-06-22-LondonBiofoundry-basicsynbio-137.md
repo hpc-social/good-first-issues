@@ -6,4 +6,3 @@ user: hainesm6
 repo: LondonBiofoundry/basicsynbio
 ---
 
-E.g. the "export_csvs()" function.

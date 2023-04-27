@@ -6,4 +6,3 @@ user: CJ-Wright
 repo: conda-forge/conda-smithy
 ---
 
-Python version constraints without noarch cause a bunch of issues for conda-build. 

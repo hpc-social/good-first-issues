@@ -6,6 +6,3 @@ user: UnixJunkie
 repo: rdicosmo/parmap
 ---
 
-We don't want Parmap to be invoked in vain.
-Also, this would ease writing tests for Parmap.
-List.map is equivalent to Parmap.map ~ncores:1 and there is almost no overhead.

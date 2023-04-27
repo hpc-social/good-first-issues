@@ -6,4 +6,3 @@ user: evaneschneider
 repo: cholla-hydro/cholla
 ---
 
-Remove functions associated with H correction on CPU from global.cpp and global.h

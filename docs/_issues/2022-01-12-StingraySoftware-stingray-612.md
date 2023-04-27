@@ -6,4 +6,3 @@ user: matteobachetti
 repo: StingraySoftware/stingray
 ---
 
-As per comment here: https://github.com/StingraySoftware/stingray/pull/610/files#r782942772

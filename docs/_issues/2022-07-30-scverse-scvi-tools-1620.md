@@ -6,4 +6,3 @@ user: RK900
 repo: scverse/scvi-tools
 ---
 
-Mentioned by @jjhong922 in #1608 - need a Jax equivalent of the PyTorch FCLayers to reduce redundancy in FlaxEncoder/Decoder

@@ -6,5 +6,3 @@ user: dnarayanan
 repo: dnarayanan/powderday
 ---
 
-https://github.com/arnauqb/qsosed
-

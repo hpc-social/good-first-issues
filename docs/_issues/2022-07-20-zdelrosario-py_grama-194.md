@@ -6,4 +6,3 @@ user: zdelrosario
 repo: zdelrosario/py_grama
 ---
 
-Add a composition (`cp_*`) verb to change a model's name within a pipeline.

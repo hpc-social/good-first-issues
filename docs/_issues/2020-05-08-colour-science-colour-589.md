@@ -6,6 +6,3 @@ user: KelSolaar
 repo: colour-science/colour
 ---
 
-References
----
-- https://graphics.stanford.edu/~boulos/papers/orgb_sig.pdf

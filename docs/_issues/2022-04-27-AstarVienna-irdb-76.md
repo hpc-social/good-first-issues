@@ -6,5 +6,3 @@ user: astronomyk
 repo: AstarVienna/irdb
 ---
 
-As far as I know there are no transmission losses for the SPEC mode grating optics.
-Look into it

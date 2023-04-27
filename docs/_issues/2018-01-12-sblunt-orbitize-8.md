@@ -6,4 +6,3 @@ user: semaphoreP
 repo: sblunt/orbitize
 ---
 
-We should be able to marginalize over plate scale/north angle uncertainties. 

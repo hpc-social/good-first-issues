@@ -6,5 +6,3 @@ user: blowekamp
 repo: InsightSoftwareConsortium/ITK
 ---
 
-Update documentation to include a link to the IJ paper:
-http://hdl.handle.net/10380/3342

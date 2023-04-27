@@ -6,4 +6,3 @@ user: LilithHafner
 repo: JuliaLang/julia
 ---
 
-`round(Int, π)` throws an error, for example.

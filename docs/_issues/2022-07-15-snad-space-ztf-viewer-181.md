@@ -6,4 +6,3 @@ user: pruzhinskaya
 repo: snad-space/ztf-viewer
 ---
 
-Consider to remove OGLE-III from the list of catalogues. Not too much cross-matchings due to other hemisphere coverage. 

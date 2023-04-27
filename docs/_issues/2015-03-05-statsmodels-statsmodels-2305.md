@@ -5,4 +5,3 @@ user: jseabold
 repo: statsmodels/statsmodels
 ---
 
-See #659.

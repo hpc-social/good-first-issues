@@ -6,4 +6,3 @@ user: elinw
 repo: ropenscilabs/qcoder
 ---
 
-Add more statistics or visualizations to the summary tab. 

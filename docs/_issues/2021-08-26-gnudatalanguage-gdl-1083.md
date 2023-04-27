@@ -6,5 +6,3 @@ user: GillesDuvert
 repo: gnudatalanguage/gdl
 ---
 
-See #601 . Was done for CW_BGROUP, this is much easier!
-CW_FIELD is used in atv

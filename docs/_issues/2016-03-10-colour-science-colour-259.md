@@ -6,4 +6,3 @@ user: Ron024
 repo: colour-science/colour
 ---
 
-Add support for JCAMP-DX and CxF XML imports.

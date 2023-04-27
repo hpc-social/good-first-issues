@@ -6,5 +6,3 @@ user: KelSolaar
 repo: colour-science/colour
 ---
 
-## References
-- http://www.iap.unibe.ch/publications/download/201/en/

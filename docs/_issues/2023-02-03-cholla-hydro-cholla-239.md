@@ -6,4 +6,3 @@ user: evaneschneider
 repo: cholla-hydro/cholla
 ---
 
-Remove unused globals associated with COOLING_CPU from global.h

@@ -6,6 +6,3 @@ user: ltalirz
 repo: aiidateam/aiida-core
 ---
 
-When using `verdi setup`, why not automatically set up the 'localhost' computer with the 'direct' scheduler?
-
-This saves a few steps for new users getting started with AiiDA.

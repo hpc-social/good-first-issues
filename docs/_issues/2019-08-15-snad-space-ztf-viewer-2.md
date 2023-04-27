@@ -6,4 +6,3 @@ user: hombit
 repo: snad-space/ztf-viewer
 ---
 
-See API description: https://www.aavso.org/vsp-api

@@ -6,4 +6,3 @@ user: minrk
 repo: ipython/ipython
 ---
 
-Since IPython 6 sets minimum supported Python to 3.3 (or possibly 3.4) and pypy is currently only at 3.2, this means that no version of pypy can run IPython 6. We should restore testing on PyPy once it has implemented a supported Python syntax.

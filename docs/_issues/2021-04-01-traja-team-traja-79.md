@@ -6,6 +6,3 @@ user: justinshenk
 repo: traja-team/traja
 ---
 
-Demonstrate Traja with a stock market price forecasting example.
-
-Good place to start is the Colab notebook: https://colab.research.google.com/github/justinshenk/traja/blob/master/demo.ipynb

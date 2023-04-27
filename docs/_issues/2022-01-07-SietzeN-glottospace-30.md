@@ -5,5 +5,3 @@ user: SietzeN
 repo: SietzeN/glottospace
 ---
 
-This will be useful for plotting WALS data, and for plotting glottospotlight.
-Hide from legend and map

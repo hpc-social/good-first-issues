@@ -6,4 +6,3 @@ user: YgabrielsY
 repo: SISPO-developers/sispo
 ---
 
-java VM needs to be running

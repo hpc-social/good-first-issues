@@ -6,4 +6,3 @@ user: DaniBodor
 repo: DeepRank/deeprank-core
 ---
 
-See discussion in: https://github.com/DeepRank/deeprank-core/pull/326#discussion_r1109651167

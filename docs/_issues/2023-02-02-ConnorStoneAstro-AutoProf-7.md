@@ -6,4 +6,3 @@ user: ConnorStoneAstro
 repo: ConnorStoneAstro/AutoProf
 ---
 
-Typing hints are helpful for debugging and code readability. These should be added throughout

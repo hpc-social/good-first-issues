@@ -6,4 +6,3 @@ user: asinghvi17
 repo: JuliaPlots/Makie.jl
 ---
 
-Provide a symbol, or list of symbols, and then recursively update the given attribute in every plot with some exclusion criterion

@@ -5,4 +5,3 @@ user: duetosymmetry
 repo: duetosymmetry/qnm
 ---
 
-Add documentation for class attributes to docstrings

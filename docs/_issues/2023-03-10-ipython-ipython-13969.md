@@ -6,4 +6,3 @@ user: krassowski
 repo: ipython/ipython
 ---
 
-`reset_search_buffer` would benefit from a unit test (regression tracked in #13967).

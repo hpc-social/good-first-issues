@@ -6,6 +6,3 @@ user: TFiFiE
 repo: colour-science/colour
 ---
 
-http://www.cs.harvard.edu/~sjg/papers/cspace.pdf
-
-This is an easily implementable color space that could be a nice addition. The only small problem is that the authors didn't give it a name, so maybe name it after their initials, **CGZ**.
