@@ -1,5 +1,5 @@
 ---
-tags: ["help-wanted"]
+tags: ["benchmarking","enhancement"]
 title: "Consider removing <4 gene limit"
 html_url: "https://github.com/NathanSkene/EWCE/issues/79"
 user: "bschilder"
