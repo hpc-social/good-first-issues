@@ -1,8 +1,8 @@
 ---
 tags: ["help-wanted"]
 title: "Clean tests"
-html_url: "https://github.com/fAndreuzzi/BisPy/issues/31"
-user: "fAndreuzzi"
+html_url: "https://github.com/fandreuz/BisPy/issues/31"
+user: "fandreuz"
 repo: "fAndreuzzi/BisPy"
 ---
 
