@@ -1,5 +1,5 @@
 ---
-tags: ["Good-First-Issue","kube"]
+tags: ["Good-First-Issue","kube","volunteers-wanted"]
 title: "Support device mapping in kube play similar do Kubernetes device plugins"
 html_url: "https://github.com/containers/podman/issues/17833"
 user: "rhatdan"
