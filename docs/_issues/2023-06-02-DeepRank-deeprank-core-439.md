@@ -1,5 +1,5 @@
 ---
-tags: ["MolStruct","priority"]
+tags: ["MolStruct","priority","stale"]
 title: "Remove reduce"
 html_url: "https://github.com/DeepRank/deeprank-core/issues/439"
 user: "DaniBodor"
