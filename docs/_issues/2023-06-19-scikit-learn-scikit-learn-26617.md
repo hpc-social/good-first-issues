@@ -1,5 +1,5 @@
 ---
-tags: ["Documentation"]
+tags: ["Documentation","Meta-issue"]
 title: "DOC Introduce dropdowns in the User Guide"
 html_url: "https://github.com/scikit-learn/scikit-learn/issues/26617"
 user: "ArturoAmorQ"
