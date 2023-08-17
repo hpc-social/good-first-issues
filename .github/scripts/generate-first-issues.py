@@ -10,6 +10,7 @@ here = os.path.dirname(os.path.abspath(__file__))
 root = os.path.dirname(os.path.dirname(here))
 print("Present working directory is %s" % here)
 api_base = "https://api.github.com/repos/{repo}/issues"
+api_topic_base = "https://api.github.com/repos/{repo}/topics"
 
 # GitHub Workflow - we get variables from environment
 REPOS_FILE = os.path.join(root, ".github", "repos.txt")
@@ -57,6 +58,17 @@ def generate_markdown(line):
 
     extra_tags = extra_tags.split(",")
     repo = "/".join(repo.split("/")[-2:])
+    url = api_topic_base.format(repo=repo)
+    response = requests.get(url, headers=headers, params=data)
+    if response.status_code != 200:
+        print(
+            "Issue with response %s: %s, sleeping"
+            % (response.status_code, response.reason)
+        )
+        time.sleep(60)
+        return None, None
+    topics = response.json()['names']
+
     url = api_base.format(repo=repo)
 
     print("Looking up issues for %s" % repo)
@@ -83,7 +95,7 @@ def generate_markdown(line):
         content = "---\n"
 
         # Add labels as tags
-        tags = list([x["name"] for x in issue["labels"]])
+        tags = list([x["name"] for x in issue["labels"]]) + topics
         if ISSUE_LABEL in tags:
             tags.remove(ISSUE_LABEL)
 
