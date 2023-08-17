@@ -45,6 +45,18 @@ print("Collection output folder: [%s]" % output_dir)
 if not os.path.exists(output_dir):
     os.mkdir(output_dir)
 
+def get_repository_topics(repo):
+    url = api_topic_base.format(repo=repo)
+    response = requests.get(url, headers=headers, params=data)
+    if response.status_code != 200:
+        print(
+            "Issue with repository topics, response %s: %s, sleeping"
+            % (response.status_code, response.reason)
+        )
+        time.sleep(60)
+        return []
+    return response.json().get('names') or []
+
 def generate_markdown(line):
     """
     Generate markdown for a repo / tags
@@ -58,16 +70,7 @@ def generate_markdown(line):
 
     extra_tags = extra_tags.split(",")
     repo = "/".join(repo.split("/")[-2:])
-    url = api_topic_base.format(repo=repo)
-    response = requests.get(url, headers=headers, params=data)
-    if response.status_code != 200:
-        print(
-            "Issue with response %s: %s, sleeping"
-            % (response.status_code, response.reason)
-        )
-        time.sleep(60)
-        return None, None
-    topics = response.json()['names']
+    topics = get_repository_topics(repo)
 
     url = api_base.format(repo=repo)
 
@@ -95,7 +98,7 @@ def generate_markdown(line):
         content = "---\n"
 
         # Add labels as tags
-        tags = list([x["name"] for x in issue["labels"]]) + topics
+        tags = list(set([x["name"] for x in issue["labels"]] + topics))
         if ISSUE_LABEL in tags:
             tags.remove(ISSUE_LABEL)
 
