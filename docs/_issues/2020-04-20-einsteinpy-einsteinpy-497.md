@@ -1,5 +1,5 @@
 ---
-tags: ["symbolic"]
+tags: ["general-relativity","geodesics","gravitational-physics","orbital-simulation","perihelion","space-physics","symbolic"]
 title: "Christoffel Symbols are no tensor!"
 html_url: "https://github.com/einsteinpy/einsteinpy/issues/497"
 user: "andi8086"

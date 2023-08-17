@@ -1,5 +1,5 @@
 ---
-tags: ["Bug","Effort-low","Package-novice","utils"]
+tags: ["Bug","Effort-low","Package-novice","astronomy","astrophysics","astropy","python","science","utils"]
 title: "BUG: Spinner updates every 2 steps but advertises as 1 step"
 html_url: "https://github.com/astropy/astropy/issues/11656"
 user: "pllim"

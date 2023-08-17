@@ -1,5 +1,5 @@
 ---
-tags: ["Bug","IO-JSON"]
+tags: ["Bug","IO-JSON","alignment","data-analysis","data-science","flexible","pandas","python"]
 title: "BUG: JSON serialization with orient split fails roundtrip with MultiIndex"
 html_url: "https://github.com/pandas-dev/pandas/issues/50456"
 user: "datapythonista"

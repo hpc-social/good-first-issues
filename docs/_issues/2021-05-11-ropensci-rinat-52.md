@@ -1,4 +1,5 @@
 ---
+tags: ["inaturalist","r","r-package","rstats","spocc"]
 title: "use `world` instead of `usa` for default basemap"
 html_url: "https://github.com/ropensci/rinat/issues/52"
 user: "stragu"

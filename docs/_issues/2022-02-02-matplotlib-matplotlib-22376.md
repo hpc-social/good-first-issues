@@ -1,5 +1,5 @@
 ---
-tags: ["Good-first-issue","New-feature"]
+tags: ["Good-first-issue","New-feature","data-science","data-visualization","gtk","hacktoberfest","matplotlib","plotting","python","qt","tk","wx"]
 title: "[ENH]: align_titles"
 html_url: "https://github.com/matplotlib/matplotlib/issues/22376"
 user: "anntzer"

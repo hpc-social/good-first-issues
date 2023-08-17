@@ -1,5 +1,5 @@
 ---
-tags: ["enhancement"]
+tags: ["enhancement","uq"]
 title: "Missing documentation / docstrings"
 html_url: "https://github.com/zdelrosario/py_grama/issues/198"
 user: "mstites"

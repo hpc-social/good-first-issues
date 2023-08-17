@@ -1,5 +1,5 @@
 ---
-tags: ["Docs","Effort-low","Hacktoberfest","Package-novice","coordinates"]
+tags: ["Docs","Effort-low","Hacktoberfest","Package-novice","astronomy","astrophysics","astropy","coordinates","python","science"]
 title: "Automate generation of the `SkyCoord` tab-completion documentation"
 html_url: "https://github.com/astropy/astropy/issues/9321"
 user: "eteq"

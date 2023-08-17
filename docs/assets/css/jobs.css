@@ -39,6 +39,10 @@ layout: null
   cursor: pointer;
 }
 
+.dataTables_paginate .paginate_button {
+  background-color: white !important;
+}
+
 body{
   font-family: 'Catamaran', sans-serif;
   font-weight: 300;

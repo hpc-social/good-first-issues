@@ -1,5 +1,5 @@
 ---
-tags: ["enhancement","help-wanted"]
+tags: ["arbitrary-precision","arbitrary-precision-arithmetic","arbitrary-precision-floats","arbitrary-precision-integers","arithmetic","artificial-intelligence","c-plus-plus","digital-signal-processing","embedded-systems","enhancement","fixed-point-arithmetic","floating-point-arithmetic","half-precision","help-wanted","integer-arithmetic","interval-arithmetic","octa-precision","posit-arithmetic","quad-precision","quarter-precision","rational-arithmetic"]
 title: "Visualization of the ubox of unum Type I"
 html_url: "https://github.com/stillwater-sc/universal/issues/196"
 user: "Ravenwater"

@@ -1,15 +1,16 @@
 #!/bin/bash
 
-import shutil
 import json
 import os
 import requests
 import sys
+import time
 
 here = os.path.dirname(os.path.abspath(__file__))
 root = os.path.dirname(os.path.dirname(here))
 print("Present working directory is %s" % here)
 api_base = "https://api.github.com/repos/{repo}/issues"
+api_topic_base = "https://api.github.com/repos/{repo}/topics"
 
 # GitHub Workflow - we get variables from environment
 REPOS_FILE = os.path.join(root, ".github", "repos.txt")
@@ -44,6 +45,39 @@ print("Collection output folder: [%s]" % output_dir)
 if not os.path.exists(output_dir):
     os.mkdir(output_dir)
 
+
+def check_response(response):
+    """
+    Ensure a response is 200 (successful)
+    """
+    if response.status_code != 200:
+        print(
+            "Issue with %s, response %s: %s, sleeping"
+            % (response.url, response.status_code, response.reason)
+        )
+        time.sleep(60)
+        return False
+    return True
+
+
+def get_repository_topics(repo):
+    """
+    Use the repository topics URL to get a list of topic tags
+    """
+    url = api_topic_base.format(repo=repo)
+    response = requests.get(url, headers=headers, params=data)
+    if not check_response(response):
+        return []
+    return response.json().get("names") or []
+
+
+def unique(listing):
+    """
+    Ensure a list is unique.
+    """
+    return list(set(listing))
+
+
 def generate_markdown(line):
     """
     Generate markdown for a repo / tags
@@ -57,23 +91,19 @@ def generate_markdown(line):
 
     extra_tags = extra_tags.split(",")
     repo = "/".join(repo.split("/")[-2:])
+    topics = get_repository_topics(repo)
     url = api_base.format(repo=repo)
 
     print("Looking up issues for %s" % repo)
 
     # This will return the first
     response = requests.get(url, headers=headers, params=data)
-    if response.status_code != 200:
-        print(
-            "Issue with response %s: %s, sleeping"
-            % (response.status_code, response.reason)
-        )
-        time.sleep(60)
+    if not check_response(response):
         return None, None
 
     issues = response.json()
     results = []
- 
+
     # For each issue, write a markdown file
     for issue in issues:
         date = issue["created_at"].split("T")[0]
@@ -83,12 +113,12 @@ def generate_markdown(line):
         content = "---\n"
 
         # Add labels as tags
-        tags = list([x["name"] for x in issue["labels"]])
+        tags = unique([x["name"] for x in issue["labels"]] + topics)
         if ISSUE_LABEL in tags:
             tags.remove(ISSUE_LABEL)
 
         if extra_tags:
-            tags = tags + extra_tags
+            tags = unique(tags + extra_tags)
         if tags:
             tags = [x.replace(":", "").replace(" ", "-") for x in tags]
             tags = [x for x in tags if x]
@@ -113,10 +143,9 @@ def generate_markdown(line):
 
 # Load repos
 for line in lines:
-
     try:
         results = generate_markdown(line)
-    except: 
+    except:
         continue
 
     # Output to ../docs/_issues
