@@ -1,5 +1,5 @@
 ---
-tags: ["cleaning","component-tests"]
+tags: ["cleaning","component-tests","gpu","laser","particle-in-cell","physics","pic","plasma","research","simulation"]
 title: "Naming Convention for CI Tests"
 html_url: "https://github.com/ECP-WarpX/WarpX/issues/2724"
 user: "EZoni"

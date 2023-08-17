@@ -1,5 +1,5 @@
 ---
-tags: ["bug","pkgcompleter","pkgdocumentsearch"]
+tags: ["bug","jupyter","jupyterlab","pkgcompleter","pkgdocumentsearch"]
 title: "Both completer and document search event handlers get dispatched on Esc"
 html_url: "https://github.com/jupyterlab/jupyterlab/issues/13659"
 user: "krassowski"

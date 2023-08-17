@@ -1,5 +1,5 @@
 ---
-tags: ["help-wanted"]
+tags: ["help-wanted","neutrino","radio","simulation"]
 title: "Antenna model list in the documentation needs updating"
 html_url: "https://github.com/nu-radio/NuRadioMC/issues/381"
 user: "shallmann"

@@ -1,5 +1,5 @@
 ---
-tags: ["documentation"]
+tags: ["bluesky","dataacquisition","documentation","python"]
 title: "make 'snake' documentation clearer"
 html_url: "https://github.com/bluesky/bluesky/issues/617"
 user: "tacaswell"

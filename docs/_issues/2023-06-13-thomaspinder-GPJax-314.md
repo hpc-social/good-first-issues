@@ -1,5 +1,5 @@
 ---
-tags: ["enhancement","help-wanted"]
+tags: ["bayesian-inference","enhancement","gaussian-processes","help-wanted","jax","machine-learning","probabilistic-programming"]
 title: "feat: Monte Carlo integrator."
 html_url: "https://github.com/JaxGaussianProcesses/GPJax/issues/314"
 user: "daniel-dodd"

@@ -1,5 +1,5 @@
 ---
-tags: ["documentation","help-wanted"]
+tags: ["bayesian-inference","documentation","hamiltonian-monte-carlo","help-wanted","probabilistic-programming","sampling-methods"]
 title: "Improve the documentation"
 html_url: "https://github.com/blackjax-devs/blackjax/issues/236"
 user: "rlouf"

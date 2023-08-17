@@ -1,5 +1,5 @@
 ---
-tags: ["documentation"]
+tags: ["documentation","gpu","graphics","julia","julia-language","plotting","visualization"]
 title: "Allow custom link text in `\\mylinkref` in docs"
 html_url: "https://github.com/MakieOrg/Makie.jl/issues/2802"
 user: "asinghvi17"
