@@ -1,5 +1,5 @@
 ---
-tags: ["closember","data-science","hacktoberfest","ipython","jupyter","notebook","python","repl"]
+tags: ["closember","data-science","hacktoberfest","ipython","jupyter","notebook","python","repl","spec-0000"]
 title: "lsmagic returns JSON which makes for awkward UX in JupyterLab"
 html_url: "https://github.com/ipython/ipython/issues/11793"
 user: "fperez"
