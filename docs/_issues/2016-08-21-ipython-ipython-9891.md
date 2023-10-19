@@ -1,5 +1,5 @@
 ---
-tags: ["closember","data-science","hacktoberfest","ipython","jupyter","notebook","python","repl","spec-0000"]
+tags: ["closember","data-science","hacktoberfest","ipython","jupyter","notebook","python","repl","spec-0"]
 title: "feature request: redirect magic's result to pager"
 html_url: "https://github.com/ipython/ipython/issues/9891"
 user: "taoluo"
