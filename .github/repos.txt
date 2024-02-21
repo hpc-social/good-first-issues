@@ -274,3 +274,4 @@ https://github.com/lmcinnes/umap
 https://github.com/JuliaManifolds/Manopt.jl
 https://github.com/econ-ark/HARK
 https://github.com/ropensci/dataspice
+https://github.com/cea-hpc/modules
