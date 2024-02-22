@@ -5,6 +5,8 @@ import os
 import requests
 import sys
 import time
+import shlex
+import subprocess
 
 here = os.path.dirname(os.path.abspath(__file__))
 root = os.path.dirname(os.path.dirname(here))
@@ -36,7 +38,8 @@ data = {"state": "open", "labels": ISSUE_LABEL}
 
 # Documentation base is located at docs
 # This is expected to be run in a GitHub action
-output_dir = os.path.join(root, "docs", COLLECTION_FOLDER)
+docs_dir = os.path.join(root, "docs")
+output_dir = os.path.join(docs_dir, COLLECTION_FOLDER)
 
 # Print metadata for user
 print("Issue label: [%s]" % ISSUE_LABEL)
@@ -78,6 +81,29 @@ def unique(listing):
     return list(set(listing))
 
 
+def run_command(cmd, stream=False):
+    """
+    use subprocess to send a command to the terminal.
+
+    Parameters
+    ==========
+    cmd: the command to send
+    """
+    if not isinstance(cmd, list):
+        cmd = shlex.split(cmd)
+
+    stdout = subprocess.PIPE if not stream else None
+    output = subprocess.Popen(cmd, stderr=subprocess.STDOUT, stdout=stdout)
+
+    t = output.communicate()[0], output.returncode
+    output = {"message": t[0], "return_code": t[1]}
+
+    if isinstance(output["message"], bytes):
+        output["message"] = output["message"].decode("utf-8")
+
+    return output
+
+
 def generate_markdown(line):
     """
     Generate markdown for a repo / tags
@@ -102,7 +128,6 @@ def generate_markdown(line):
         return None, None
 
     issues = response.json()
-    results = []
 
     # For each issue, write a markdown file
     for issue in issues:
@@ -136,28 +161,34 @@ def generate_markdown(line):
         content += 'user: "%s"\n' % (issue["user"]["login"])
         content += 'repo: "%s"\n' % repo
         content += "---\n\n"
-        results.append((filename, content))
 
-    return results
+        # Try building
+        try:
+            print(content)
+        except:
+            print(
+                f'Skipping issue {issue["number"]} of {repo}, cannot parse illegal characters.'
+            )
+            continue
+        yield filename, content
 
 
 # Load repos
 for line in lines:
-    try:
-        results = generate_markdown(line)
-    except:
-        continue
+    # Try writing and building each, do not keep ones that don't build
+    for filename, content in generate_markdown(line):
+        if not filename or not content:
+            continue
+        with open(filename, "w") as filey:
+            filey.writelines(content)
 
-    # Output to ../docs/_issues
-    for result in results:
-        try:
-            filename, content = result
-            if not filename or not content:
-                continue
-            with open(filename, "w") as filey:
-                filey.writelines(content)
-        except:
-            print(f"Issue saving issue for {filename}")
+        # This isn't perfect, but it ensures we do not add content that won't build
+        os.chdir(docs_dir)
+        p = run_command(["bundle", "exec", "jekyll", "build"])
+        if p["return_code"] != 0:
+            print(f"Issue with building {filename}, removing")
+            os.remove(filename)
+        os.chdir(here)
 
 count = os.listdir(output_dir)
 print(f"Found {count} total issues.")
