@@ -13,13 +13,16 @@ jobs:
   good-first-issues:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Update Repos
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: python .github/scripts/add-repos.py
 
-    # This is customized from the action to not add a body
+    - uses: ruby/setup-ruby@ec02537da5712d66d4d50a0f33b7eb52773b5ed1
+      with:
+        ruby-version: '3.1' # Not needed with a .ruby-version file
+    - run: bundle install
     - name: Generate First Issues
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
