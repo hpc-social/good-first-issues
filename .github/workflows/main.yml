@@ -54,6 +54,7 @@ jobs:
            printf "No changes\n"
         else
            printf "Changes\n"
+           git config advice.addIgnoredFile false
            git commit -a -m "Automated deployment to update first issues $(date '+%Y-%m-%d')"
-           git push origin ${UPDATE_BRANCH}
+           git push origin ${UPDATE_BRANCH} --force
         fi
