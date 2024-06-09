@@ -1,5 +1,5 @@
 ---
-tags: ["Documentation","Good-first-issue","Network-Generation","analytics","embeddable-database","graph","graph-algorithms","graph-analysis","graph-database","graph-theory","graphviz","python","rust","temporal-networks","time-series"]
+tags: ["Documentation","Good-first-issue","Network-Generation","analytics","database","embedded-database","graph","graph-database","neo4j","olap","python","rust","temporal","time-series"]
 title: "Document the graph generation module"
 html_url: "https://github.com/Pometry/Raphtory/issues/943"
 user: "miratepuffin"
