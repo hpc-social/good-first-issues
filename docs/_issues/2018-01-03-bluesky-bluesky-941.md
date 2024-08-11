@@ -1,5 +1,5 @@
 ---
-tags: ["bluesky","dataacquisition","python"]
+tags: ["bluesky","dataacquisition","python","user-IO"]
 title: "Add an 'event' command"
 html_url: "https://github.com/bluesky/bluesky/issues/941"
 user: "danielballan"

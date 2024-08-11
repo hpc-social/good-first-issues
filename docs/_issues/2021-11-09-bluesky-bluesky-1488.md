@@ -1,5 +1,5 @@
 ---
-tags: ["bluesky","dataacquisition","maintenance","python"]
+tags: ["bluesky","dataacquisition","hackathon","maintenance","python"]
 title: "consolidate the describe / config caches in RunBundler"
 html_url: "https://github.com/bluesky/bluesky/issues/1488"
 user: "tacaswell"
