@@ -1,8 +1,8 @@
 ---
 tags: ["Axis3","Makie","enhancement","gpu","graphics","julia","julia-language","plotting","visualization"]
-title: "Add option to close an `Axis3`'s outline box"
-html_url: "https://github.com/MakieOrg/Makie.jl/issues/2349"
-user: "fatteneder"
+title: "Changing x/y/z axis position in a `Axis3`"
+html_url: "https://github.com/MakieOrg/Makie.jl/issues/1056"
+user: "Datseris"
 repo: "JuliaPlots/Makie.jl"
 ---
 

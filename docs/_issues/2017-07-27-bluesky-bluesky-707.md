@@ -1,5 +1,5 @@
 ---
-tags: ["bluesky","dataacquisition","maintenance","python"]
+tags: ["bluesky","dataacquisition","maintenance","python","scan-spec"]
 title: "Factor out the code that sorts snaked data by position."
 html_url: "https://github.com/bluesky/bluesky/issues/707"
 user: "danielballan"
