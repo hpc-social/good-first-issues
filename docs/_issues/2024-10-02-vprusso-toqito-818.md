@@ -1,7 +1,7 @@
 ---
 tags: ["matrix-analysis","non-quantum","physics","python","python-3","quantum","quantum-computing","quantum-information","unitaryhack"]
-title: "Use infix operator where appropriate "
-html_url: "https://github.com/vprusso/toqito/issues/678"
+title: "Remove Qiskit as dependency"
+html_url: "https://github.com/vprusso/toqito/issues/818"
 user: "vprusso"
 repo: "vprusso/toqito"
 ---
