@@ -1,7 +1,7 @@
 ---
-tags: ["documentation","environment","environment-modules","hacktoberfest","hpc","module","modulefiles","shell","tcl"]
+tags: ["documentation","environment","environment-modules","hpc","module","modulefiles","shell","tcl"]
 title: "a manpage for `envml` command"
-html_url: "https://github.com/cea-hpc/modules/issues/190"
+html_url: "https://github.com/envmodules/modules/issues/190"
 user: "cmarqu"
 repo: "cea-hpc/modules"
 ---
