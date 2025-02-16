@@ -1,5 +1,5 @@
 ---
-tags: ["bugfix"]
+tags: ["bugfix","task"]
 title: "Unclear attribute of Hazard class"
 html_url: "https://github.com/CLIMADA-project/climada_python/issues/1007"
 user: "chahank"
