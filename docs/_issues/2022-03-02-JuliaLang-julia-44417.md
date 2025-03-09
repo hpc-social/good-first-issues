@@ -1,5 +1,5 @@
 ---
-tags: ["compilercodegen","compilerlatency","hacktoberfest","hpc","julia","julia-language","julialang","machine-learning","numerical","programming-language","science","scientific"]
+tags: ["compilercodegen","hacktoberfest","hpc","julia","julia-language","julialang","latency","machine-learning","numerical","programming-language","science","scientific"]
 title: "better calling convention for large numbers of arguments"
 html_url: "https://github.com/JuliaLang/julia/issues/44417"
 user: "JeffBezanson"
