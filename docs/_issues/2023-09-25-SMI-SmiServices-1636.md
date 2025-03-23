@@ -1,5 +1,5 @@
 ---
-tags: ["priority/low","type/enhancement"]
+tags: ["priority/low"]
 title: "add percentages to MongoExtractJobStore log output"
 html_url: "https://github.com/SMI/SmiServices/issues/1636"
 user: "rkm"
