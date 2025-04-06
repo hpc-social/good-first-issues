@@ -1,8 +1,8 @@
 ---
 tags: ["enhancement","matrix-analysis","physics","python","python-3","quantum","quantum-computing","quantum-information","unitaryhack"]
-title: "TODO in `is_separable` check"
-html_url: "https://github.com/vprusso/toqito/issues/621"
-user: "purva-thakre"
+title: "Enhance `tensor_comb` to handle different types of combination requests"
+html_url: "https://github.com/vprusso/toqito/issues/1116"
+user: "vprusso"
 repo: "vprusso/toqito"
 ---
 
