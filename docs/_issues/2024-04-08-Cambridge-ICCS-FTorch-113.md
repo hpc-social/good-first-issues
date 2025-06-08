@@ -1,5 +1,5 @@
 ---
-tags: ["Hacktoberfest","deep-learning","enhancement","fortran","hacktoberfest","interoperability","machine-learning","python","pytorch","torch"]
+tags: ["Hacktoberfest","deep-learning","enhancement","fortran","hacktoberfest","interoperability","libtorch","machine-learning","python","pytorch","torch"]
 title: "Model Freezing"
 html_url: "https://github.com/Cambridge-ICCS/FTorch/issues/113"
 user: "jatkinson1000"
