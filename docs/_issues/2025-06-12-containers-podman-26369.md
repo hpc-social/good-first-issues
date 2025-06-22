@@ -1,5 +1,5 @@
 ---
-tags: ["Good-First-Issue","containers","docker","kind/documentation","kubernetes","linux","oci"]
+tags: ["Good-First-Issue","containers","docker","kind/documentation","kubernetes","linux","oci","triaged"]
 title: "Manpages: Missing example of `--ignore` flag in `podman ignore` manpage"
 html_url: "https://github.com/containers/podman/issues/26369"
 user: "mheon"
