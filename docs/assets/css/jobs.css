@@ -418,8 +418,8 @@ pre{font-size: 14px; max-width: 90vw; overflow: auto;}
 }
 
 .dataTables_wrapper .dataTables_length select {
-  color: var(--font-color);
-  border: 1px solid var(--font-color);
-  background-color: transparent;
+  color: var(--primary-font-color);
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-color);
   padding: 4px;
 }
